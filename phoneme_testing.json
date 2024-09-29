@@ -1,0 +1,569 @@
+{
+    "vowels": {
+        "/æ/": [
+            {
+                "word": "pan",
+                "ipa": "/pæn/",
+                "sentence": "That's a pan.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/e/", "contrast_description": "/æ/ vs /e/" },
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/æ/ vs /ɪ/" },
+                    { "contrast_phoneme": "/ʌ/", "contrast_description": "/æ/ vs /ʌ/" },
+                    { "contrast_phoneme": "/u:/", "contrast_description": "/æ/ vs /u:/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/æ/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/æ/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/i:/", "contrast_description": "/æ/ vs /i:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/æ/ vs /ɜ:/" }
+                ]
+            },
+            {
+                "word": "cap",
+                "ipa": "/kæp/",
+                "sentence": "That's a cap.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/e/", "contrast_description": "/æ/ vs /e/" },
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/æ/ vs /ɪ/" },
+                    { "contrast_phoneme": "/ʌ/", "contrast_description": "/æ/ vs /ʌ/" },
+                    { "contrast_phoneme": "/u:/", "contrast_description": "/æ/ vs /u:/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/æ/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/æ/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/i:/", "contrast_description": "/æ/ vs /i:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/æ/ vs /ɜ:/" }
+                ]
+            }
+        ],
+        "/e/": [
+            {
+                "word": "pen",
+                "ipa": "/pɛn/",
+                "sentence": "That's a pen.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/e/ vs /ɪ/" },
+                    { "contrast_phoneme": "/ʌ/", "contrast_description": "/e/ vs /ʌ/" },
+                    { "contrast_phoneme": "/æ/", "contrast_description": "/e/ vs /æ/" },
+                    { "contrast_phoneme": "/u:/", "contrast_description": "/e/ vs /u:/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/e/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/e/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/i:/", "contrast_description": "/e/ vs /i:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/e/ vs /ɜ:/" }
+                ]
+            },
+            {
+                "word": "bed",
+                "ipa": "/bɛd/",
+                "sentence": "That's a bed.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/e/ vs /ɪ/" },
+                    { "contrast_phoneme": "/æ/", "contrast_description": "/e/ vs /æ/" },
+                    { "contrast_phoneme": "/ʌ/", "contrast_description": "/e/ vs /ʌ/" },
+                    { "contrast_phoneme": "/u:/", "contrast_description": "/e/ vs /u:/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/e/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/e/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/i:/", "contrast_description": "/e/ vs /i:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/e/ vs /ɜ:/" }
+                ]
+            }
+        ],
+        "/ʌ/": [
+            {
+                "word": "cup",
+                "ipa": "/kʌp/",
+                "sentence": "That's a cup.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/æ/", "contrast_description": "/ʌ/ vs /æ/" },
+                    { "contrast_phoneme": "/e/", "contrast_description": "/ʌ/ vs /e/" },
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/ʌ/ vs /ɪ/" },
+                    { "contrast_phoneme": "/u:/", "contrast_description": "/ʌ/ vs /u:/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/ʌ/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/ʌ/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/i:/", "contrast_description": "/ʌ/ vs /i:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/ʌ/ vs /ɜ:/" }
+                ]
+            },
+            {
+                "word": "bud",
+                "ipa": "/bʌd/",
+                "sentence": "That's a bud.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/æ/", "contrast_description": "/ʌ/ vs /æ/" },
+                    { "contrast_phoneme": "/e/", "contrast_description": "/ʌ/ vs /e/" },
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/ʌ/ vs /ɪ/" },
+                    { "contrast_phoneme": "/u:/", "contrast_description": "/ʌ/ vs /u:/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/ʌ/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/ʌ/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/i:/", "contrast_description": "/ʌ/ vs /i:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/ʌ/ vs /ɜ:/" }
+                ]
+            }
+        ],
+        "/ɪ/": [
+            {
+                "word": "pin",
+                "ipa": "/pɪn/",
+                "sentence": "That's a pin.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/e/", "contrast_description": "/ɪ/ vs /e/" },
+                    { "contrast_phoneme": "/æ/", "contrast_description": "/ɪ/ vs /æ/" },
+                    { "contrast_phoneme": "/ʌ/", "contrast_description": "/ɪ/ vs /ʌ/" },
+                    { "contrast_phoneme": "/u:/", "contrast_description": "/ɪ/ vs /u:/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/ɪ/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/ɪ/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/i:/", "contrast_description": "/ɪ/ vs /i:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/ɪ/ vs /ɜ:/" }
+                ]
+            }
+        ],
+        "/i:/": [
+            {
+                "word": "sheep",
+                "ipa": "/ʃiːp/",
+                "sentence": "That's a sheep.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/i:/ vs /ɪ/" },
+                    { "contrast_phoneme": "/e/", "contrast_description": "/i:/ vs /e/" },
+                    { "contrast_phoneme": "/æ/", "contrast_description": "/i:/ vs /æ/" },
+                    { "contrast_phoneme": "/ʌ/", "contrast_description": "/i:/ vs /ʌ/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/i:/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/i:/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/u:/", "contrast_description": "/i:/ vs /u:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/i:/ vs /ɜ:/" }
+                ]
+            }
+        ],
+        "/ʊ/": [
+            {
+                "word": "pull",
+                "ipa": "/pʊl/",
+                "sentence": "That's a pull.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/u:/", "contrast_description": "/ʊ/ vs /u:/" },
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/ʊ/ vs /ɪ/" },
+                    { "contrast_phoneme": "/e/", "contrast_description": "/ʊ/ vs /e/" },
+                    { "contrast_phoneme": "/æ/", "contrast_description": "/ʊ/ vs /æ/" },
+                    { "contrast_phoneme": "/ʌ/", "contrast_description": "/ʊ/ vs /ʌ/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/ʊ/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/ʊ/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/ʊ/ vs /ɜ:/" }
+                ]
+            }
+        ],
+        "/u:/": [
+            {
+                "word": "pool",
+                "ipa": "/puːl/",
+                "sentence": "That's a pool.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ʊ/", "contrast_description": "/u:/ vs /ʊ/" },
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/u:/ vs /ɪ/" },
+                    { "contrast_phoneme": "/e/", "contrast_description": "/u:/ vs /e/" },
+                    { "contrast_phoneme": "/æ/", "contrast_description": "/u:/ vs /æ/" },
+                    { "contrast_phoneme": "/ʌ/", "contrast_description": "/u:/ vs /ʌ/" },
+                    { "contrast_phoneme": "/ɔ:/", "contrast_description": "/u:/ vs /ɔ:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/u:/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/u:/ vs /ɜ:/" }
+                ]
+            }
+        ],
+        "/ɔ:/": [
+            {
+                "word": "port",
+                "ipa": "/pɔːt/",
+                "sentence": "That's a port.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ʊ/", "contrast_description": "/ɔ:/ vs /ʊ/" },
+                    { "contrast_phoneme": "/ɪ/", "contrast_description": "/ɔ:/ vs /ɪ/" },
+                    { "contrast_phoneme": "/e/", "contrast_description": "/ɔ:/ vs /e/" },
+                    { "contrast_phoneme": "/æ/", "contrast_description": "/ɔ:/ vs /æ/" },
+                    { "contrast_phoneme": "/ʌ/", "contrast_description": "/ɔ:/ vs /ʌ/" },
+                    { "contrast_phoneme": "/i:/", "contrast_description": "/ɔ:/ vs /i:/" },
+                    { "contrast_phoneme": "/ɑ:/", "contrast_description": "/ɔ:/ vs /ɑ:/" },
+                    { "contrast_phoneme": "/ɜ:/", "contrast_description": "/ɔ:/ vs /ɜ:/" }
+                ]
+            }
+        ]
+    },
+    "diphthongs": {
+        "/aɪ/": [
+            {
+                "word": "fly",
+                "ipa": "/flaɪ/",
+                "sentence": "That's a fly.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/eɪ/", "contrast_description": "/aɪ/ vs /eɪ/" },
+                    { "contrast_phoneme": "/ɔɪ/", "contrast_description": "/aɪ/ vs /ɔɪ/" },
+                    { "contrast_phoneme": "/aʊ/", "contrast_description": "/aɪ/ vs /aʊ/" },
+                    { "contrast_phoneme": "/əʊ/", "contrast_description": "/aɪ/ vs /əʊ/" },
+                    { "contrast_phoneme": "/ɪə/", "contrast_description": "/aɪ/ vs /ɪə/" },
+                    { "contrast_phoneme": "/eə/", "contrast_description": "/aɪ/ vs /eə/" },
+                    { "contrast_phoneme": "/ʊə/", "contrast_description": "/aɪ/ vs /ʊə/" }
+                ]
+            }
+        ],
+        "/eɪ/": [
+            {
+                "word": "cape",
+                "ipa": "/keɪp/",
+                "sentence": "That's a cape.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/aɪ/", "contrast_description": "/eɪ/ vs /aɪ/" },
+                    { "contrast_phoneme": "/ɔɪ/", "contrast_description": "/eɪ/ vs /ɔɪ/" },
+                    { "contrast_phoneme": "/aʊ/", "contrast_description": "/eɪ/ vs /aʊ/" },
+                    { "contrast_phoneme": "/əʊ/", "contrast_description": "/eɪ/ vs /əʊ/" },
+                    { "contrast_phoneme": "/ɪə/", "contrast_description": "/eɪ/ vs /ɪə/" },
+                    { "contrast_phoneme": "/eə/", "contrast_description": "/eɪ/ vs /eə/" },
+                    { "contrast_phoneme": "/ʊə/", "contrast_description": "/eɪ/ vs /ʊə/" }
+                ]
+            }
+        ],
+        "/ɔɪ/": [
+            {
+                "word": "boy",
+                "ipa": "/bɔɪ/",
+                "sentence": "That's a boy.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/aɪ/", "contrast_description": "/ɔɪ/ vs /aɪ/" },
+                    { "contrast_phoneme": "/eɪ/", "contrast_description": "/ɔɪ/ vs /eɪ/" },
+                    { "contrast_phoneme": "/aʊ/", "contrast_description": "/ɔɪ/ vs /aʊ/" },
+                    { "contrast_phoneme": "/əʊ/", "contrast_description": "/ɔɪ/ vs /əʊ/" },
+                    { "contrast_phoneme": "/ɪə/", "contrast_description": "/ɔɪ/ vs /ɪə/" },
+                    { "contrast_phoneme": "/eə/", "contrast_description": "/ɔɪ/ vs /eə/" },
+                    { "contrast_phoneme": "/ʊə/", "contrast_description": "/ɔɪ/ vs /ʊə/" }
+                ]
+            }
+        ],
+        "/aʊ/": [
+            {
+                "word": "bow",
+                "ipa": "/baʊ/",
+                "sentence": "That's a bow.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/aɪ/", "contrast_description": "/aʊ/ vs /aɪ/" },
+                    { "contrast_phoneme": "/eɪ/", "contrast_description": "/aʊ/ vs /eɪ/" },
+                    { "contrast_phoneme": "/ɔɪ/", "contrast_description": "/aʊ/ vs /ɔɪ/" },
+                    { "contrast_phoneme": "/əʊ/", "contrast_description": "/aʊ/ vs /əʊ/" },
+                    { "contrast_phoneme": "/ɪə/", "contrast_description": "/aʊ/ vs /ɪə/" },
+                    { "contrast_phoneme": "/eə/", "contrast_description": "/aʊ/ vs /eə/" },
+                    { "contrast_phoneme": "/ʊə/", "contrast_description": "/aʊ/ vs /ʊə/" }
+                ]
+            }
+        ],
+        "/əʊ/": [
+            {
+                "word": "go",
+                "ipa": "/gəʊ/",
+                "sentence": "That's a go.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/aɪ/", "contrast_description": "/əʊ/ vs /aɪ/" },
+                    { "contrast_phoneme": "/eɪ/", "contrast_description": "/əʊ/ vs /eɪ/" },
+                    { "contrast_phoneme": "/ɔɪ/", "contrast_description": "/əʊ/ vs /ɔɪ/" },
+                    { "contrast_phoneme": "/aʊ/", "contrast_description": "/əʊ/ vs /aʊ/" },
+                    { "contrast_phoneme": "/ɪə/", "contrast_description": "/əʊ/ vs /ɪə/" },
+                    { "contrast_phoneme": "/eə/", "contrast_description": "/əʊ/ vs /eə/" },
+                    { "contrast_phoneme": "/ʊə/", "contrast_description": "/əʊ/ vs /ʊə/" }
+                ]
+            }
+        ],
+        "/ɪə/": [
+            {
+                "word": "beer",
+                "ipa": "/bɪə/",
+                "sentence": "That's a beer.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/eɪ/", "contrast_description": "/ɪə/ vs /eɪ/" },
+                    { "contrast_phoneme": "/ɔɪ/", "contrast_description": "/ɪə/ vs /ɔɪ/" },
+                    { "contrast_phoneme": "/aɪ/", "contrast_description": "/ɪə/ vs /aɪ/" },
+                    { "contrast_phoneme": "/aʊ/", "contrast_description": "/ɪə/ vs /aʊ/" },
+                    { "contrast_phoneme": "/əʊ/", "contrast_description": "/ɪə/ vs /əʊ/" },
+                    { "contrast_phoneme": "/eə/", "contrast_description": "/ɪə/ vs /eə/" },
+                    { "contrast_phoneme": "/ʊə/", "contrast_description": "/ɪə/ vs /ʊə/" }
+                ]
+            }
+        ],
+        "/eə/": [
+            {
+                "word": "bear",
+                "ipa": "/beə/",
+                "sentence": "That's a bear.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/eɪ/", "contrast_description": "/eə/ vs /eɪ/" },
+                    { "contrast_phoneme": "/ɔɪ/", "contrast_description": "/eə/ vs /ɔɪ/" },
+                    { "contrast_phoneme": "/aɪ/", "contrast_description": "/eə/ vs /aɪ/" },
+                    { "contrast_phoneme": "/aʊ/", "contrast_description": "/eə/ vs /aʊ/" },
+                    { "contrast_phoneme": "/əʊ/", "contrast_description": "/eə/ vs /əʊ/" },
+                    { "contrast_phoneme": "/ɪə/", "contrast_description": "/eə/ vs /ɪə/" },
+                    { "contrast_phoneme": "/ʊə/", "contrast_description": "/eə/ vs /ʊə/" }
+                ]
+            }
+        ],
+        "/ʊə/": [
+            {
+                "word": "tour",
+                "ipa": "/tʊə/",
+                "sentence": "That's a tour.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/eɪ/", "contrast_description": "/ʊə/ vs /eɪ/" },
+                    { "contrast_phoneme": "/ɔɪ/", "contrast_description": "/ʊə/ vs /ɔɪ/" },
+                    { "contrast_phoneme": "/aɪ/", "contrast_description": "/ʊə/ vs /aɪ/" },
+                    { "contrast_phoneme": "/aʊ/", "contrast_description": "/ʊə/ vs /aʊ/" },
+                    { "contrast_phoneme": "/əʊ/", "contrast_description": "/ʊə/ vs /əʊ/" },
+                    { "contrast_phoneme": "/ɪə/", "contrast_description": "/ʊə/ vs /ɪə/" },
+                    { "contrast_phoneme": "/eə/", "contrast_description": "/ʊə/ vs /eə/" }
+                ]
+            }
+        ]
+    },
+    "consonants": {
+        "/b/": [
+            {
+                "word": "bet",
+                "ipa": "/bɛt/",
+                "sentence": "That's a bet.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/v/", "contrast_description": "/b/ vs /v/" }
+                ]
+            },
+            {
+                "word": "ban",
+                "ipa": "/bæn/",
+                "sentence": "That's a ban.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/v/", "contrast_description": "/b/ vs /v/" }
+                ]
+            },
+            {
+                "word": "bat",
+                "ipa": "/bæt/",
+                "sentence": "That's a bat.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/v/", "contrast_description": "/b/ vs /v/" }
+                ]
+            }
+        ],
+        "/p/": [
+            {
+                "word": "pin",
+                "ipa": "/pɪn/",
+                "sentence": "That's a pin.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/b/", "contrast_description": "/p/ vs /b/" }
+                ]
+            },
+            {
+                "word": "pan",
+                "ipa": "/pæn/",
+                "sentence": "That's a pan.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/f/", "contrast_description": "/p/ vs /f/" }
+                ]
+            }
+        ],
+        "/n/": [
+            {
+                "word": "fan",
+                "ipa": "/fæn/",
+                "sentence": "That's a fan.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ŋ/", "contrast_description": "/n/ vs /ŋ/" }
+                ]
+            },
+            {
+                "word": "mat",
+                "ipa": "/mæt/",
+                "sentence": "That's a mat.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/m/", "contrast_description": "/n/ vs /m/" }
+                ]
+            }
+        ],
+        "/l/": [
+            {
+                "word": "lock",
+                "ipa": "/lɒk/",
+                "sentence": "That's a lock.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/r/", "contrast_description": "/l/ vs /r/" }
+                ]
+            }
+        ],
+        "/t/": [
+            {
+                "word": "tap",
+                "ipa": "/tæp/",
+                "sentence": "That's a tap.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ʧ/", "contrast_description": "/t/ vs /ʧ/" },
+                    { "contrast_phoneme": "/d/", "contrast_description": "/t/ vs /d/" }
+                ]
+            }
+        ],
+        "/ʧ/": [
+            {
+                "word": "chip",
+                "ipa": "/ʧɪp/",
+                "sentence": "That's a chip.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/t/", "contrast_description": "/ʧ/ vs /t/" },
+                    { "contrast_phoneme": "/ʃ/", "contrast_description": "/ʧ/ vs /ʃ/" }
+                ]
+            }
+        ],
+        "/ʃ/": [
+            {
+                "word": "shack",
+                "ipa": "/ʃæk/",
+                "sentence": "That's a shack.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/s/", "contrast_description": "/ʃ/ vs /s/" },
+                    { "contrast_phoneme": "/ʧ/", "contrast_description": "/ʃ/ vs /ʧ/" }
+                ]
+            },
+            {
+                "word": "ship",
+                "ipa": "/ʃɪp/",
+                "sentence": "That's a ship.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ʧ/", "contrast_description": "/ʃ/ vs /ʧ/" }
+                ]
+            }
+        ],
+        "/s/": [
+            {
+                "word": "seat",
+                "ipa": "/siːt/",
+                "sentence": "That's a seat.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ʃ/", "contrast_description": "/s/ vs /ʃ/" },
+                    { "contrast_phoneme": "/θ/", "contrast_description": "/s/ vs /θ/" }
+                ]
+            }
+        ],
+        "/v/": [
+            {
+                "word": "van",
+                "ipa": "/væn/",
+                "sentence": "That's a van.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/f/", "contrast_description": "/v/ vs /f/" },
+                    { "contrast_phoneme": "/b/", "contrast_description": "/v/ vs /b/" }
+                ]
+            }
+        ],
+        "/f/": [
+            {
+                "word": "fret",
+                "ipa": "/frɛt/",
+                "sentence": "That's a fret.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/θ/", "contrast_description": "/f/ vs /θ/" }
+                ]
+            },
+            {
+                "word": "fit",
+                "ipa": "/fɪt/",
+                "sentence": "That's a fit.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/h/", "contrast_description": "/f/ vs /h/" }
+                ]
+            }
+        ],
+        "/ʤ/": [
+            {
+                "word": "jar",
+                "ipa": "/ʤɑː/",
+                "sentence": "That's a jar.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ʧ/", "contrast_description": "/ʤ/ vs /ʧ/" },
+                    { "contrast_phoneme": "/z/", "contrast_description": "/ʤ/ vs /z/" }
+                ]
+            },
+            {
+                "word": "jam",
+                "ipa": "/ʤæm/",
+                "sentence": "That's a jam.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/d/", "contrast_description": "/ʤ/ vs /d/" }
+                ]
+            }
+        ],
+        "/k/": [
+            {
+                "word": "coat",
+                "ipa": "/kəʊt/",
+                "sentence": "That's a coat.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/kw/", "contrast_description": "/k/ vs /kw/" },
+                    { "contrast_phoneme": "/g/", "contrast_description": "/k/ vs /g/" }
+                ]
+            }
+        ],
+        "/θ/": [
+            {
+                "word": "thigh",
+                "ipa": "/θaɪ/",
+                "sentence": "That's a thigh.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/t/", "contrast_description": "/θ/ vs /t/" },
+                    { "contrast_phoneme": "/f/", "contrast_description": "/θ/ vs /f/" }
+                ]
+            }
+        ],
+        "/h/": [
+            {
+                "word": "hit",
+                "ipa": "/hɪt/",
+                "sentence": "That's a hit.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/f/", "contrast_description": "/h/ vs /f/" }
+                ]
+            }
+        ],
+        "/z/": [
+            {
+                "word": "zest",
+                "ipa": "/zɛst/",
+                "sentence": "That's a zest.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ʤ/", "contrast_description": "/z/ vs /ʤ/" }
+                ]
+            },
+            {
+                "word": "raise",
+                "ipa": "/reɪz/",
+                "sentence": "That's a raise.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ʤ/", "contrast_description": "/z/ vs /ʤ/" }
+                ]
+            }
+        ],
+        "/d/": [
+            {
+                "word": "dip",
+                "ipa": "/dɪp/",
+                "sentence": "That's a dip.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/t/", "contrast_description": "/d/ vs /t/" },
+                    { "contrast_phoneme": "/g/", "contrast_description": "/d/ vs /g/" },
+                    { "contrast_phoneme": "/ð/", "contrast_description": "/d/ vs /ð/" }
+                ]
+            },
+            {
+                "word": "dog",
+                "ipa": "/dɒg/",
+                "sentence": "That's a dog.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/g/", "contrast_description": "/d/ vs /g/" }
+                ]
+            }
+        ],
+        "/d/ vs /ð/": [
+            {
+                "word": "side",
+                "ipa": "/saɪd/",
+                "sentence": "That's a side.",
+                "phonemic_contrast": [
+                    { "contrast_phoneme": "/ð/", "contrast_description": "/d/ vs /ð/" }
+                ]
+            }
+        ]
+    }
+}

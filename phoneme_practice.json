@@ -1,0 +1,1860 @@
+{
+    "phoneme_practice": {
+        "vowels": {
+            "/æ/ vs /e/": [
+                {
+                    "pair": ["bat", "bet"],
+                    "ipa": ["/bæt/", "/bɛt/"],
+                    "level_1": ["That's a bat.", "That's a bet."],
+                    "level_2": ["He waited for the bat.", "He waited for the bet."],
+                    "level_3": ["She placed the bat on the chair.", "She placed the bet on the chair."]
+                },
+                {
+                    "pair": ["band", "bend"],
+                    "ipa": ["/bænd/", "/bɛnd/"],
+                    "level_1": ["That's a band.", "That's a bend."],
+                    "level_2": ["He waited for the band.", "He waited for the bend."],
+                    "level_3": ["She placed the band on the desk.", "She placed the bend on the desk."]
+                },
+                {
+                    "pair": ["man", "men"],
+                    "ipa": ["/mæn/", "/mɛn/"],
+                    "level_1": ["That's a man.", "Those are men."],
+                    "level_2": ["He waited for the man.", "He waited for the men."],
+                    "level_3": ["She placed the man in the corner.", "She placed the men in the corner."]
+                },
+                {
+                    "pair": ["pan", "pen"],
+                    "ipa": ["/pæn/", "/pɛn/"],
+                    "level_1": ["That's a pan.", "That's a pen."],
+                    "level_2": ["He waited for the pan.", "He waited for the pen."],
+                    "level_3": ["She placed the pan on the table.", "She placed the pen on the table."]
+                },
+                {
+                    "pair": ["pat", "pet"],
+                    "ipa": ["/pæt/", "/pɛt/"],
+                    "level_1": ["That's a pat.", "That's a pet."],
+                    "level_2": ["He waited for the pat.", "He waited for the pet."],
+                    "level_3": ["She placed the pat on the shelf.", "She placed the pet on the shelf."]
+                },
+                {
+                    "pair": ["lad", "lead"],
+                    "ipa": ["/læd/", "/lɛd/"],
+                    "level_1": ["That's a lad.", "That's some lead."],
+                    "level_2": ["He waited for the lad.", "He waited for the lead."],
+                    "level_3": ["She placed the lad on the chair.", "She placed the lead on the chair."]
+                },
+                {
+                    "pair": ["rack", "wreck"],
+                    "ipa": ["/ræk/", "/rɛk/"],
+                    "level_1": ["That's a rack.", "That's a wreck."],
+                    "level_2": ["He waited for the rack.", "He waited for the wreck."],
+                    "level_3": ["She placed the rack in the room.", "She placed the wreck in the room."]
+                },
+                {
+                    "pair": ["vat", "vet"],
+                    "ipa": ["/væt/", "/vɛt/"],
+                    "level_1": ["That's a vat.", "That's a vet."],
+                    "level_2": ["He waited for the vat.", "He waited for the vet."],
+                    "level_3": ["She placed the vat on the shelf.", "She placed the vet on the shelf."]
+                },
+                {
+                    "pair": ["catch", "ketch"],
+                    "ipa": ["/kætʃ/", "/kɛtʃ/"],
+                    "level_1": ["That's a catch.", "That's a ketch."],
+                    "level_2": ["He waited for the catch.", "He waited for the ketch."],
+                    "level_3": ["She placed the catch by the shore.", "She placed the ketch by the shore."]
+                }
+            ],
+            "/e/ vs /ʌ/": [
+                {
+                    "pair": ["bed", "bud"],
+                    "ipa": ["/bɛd/", "/bʌd/"],
+                    "level_1": ["That's a bed.", "That's a bud."],
+                    "level_2": ["He waited for the bed.", "He waited for the bud."],
+                    "level_3": ["She placed the bed by the window.", "She placed the bud by the window."]
+                },
+                {
+                    "pair": ["bench", "bunch"],
+                    "ipa": ["/bɛntʃ/", "/bʌntʃ/"],
+                    "level_1": ["That's a bench.", "That's a bunch."],
+                    "level_2": ["He waited for the bench.", "He waited for the bunch."],
+                    "level_3": ["She placed the bench in the garden.", "She placed the bunch in the garden."]
+                },
+                {
+                    "pair": ["net", "nut"],
+                    "ipa": ["/nɛt/", "/nʌt/"],
+                    "level_1": ["That's a net.", "That's a nut."],
+                    "level_2": ["He waited for the net.", "He waited for the nut."],
+                    "level_3": ["She placed the net on the table.", "She placed the nut on the table."]
+                },
+                {
+                    "pair": ["pet", "putt"],
+                    "ipa": ["/pɛt/", "/pʌt/"],
+                    "level_1": ["That's a pet.", "That's a putt."],
+                    "level_2": ["He waited for the pet.", "He waited for the putt."],
+                    "level_3": ["She placed the pet on the chair.", "She placed the putt on the chair."]
+                },
+                {
+                    "pair": ["deck", "duck"],
+                    "ipa": ["/dɛk/", "/dʌk/"],
+                    "level_1": ["That's a deck.", "That's a duck."],
+                    "level_2": ["He waited for the deck.", "He waited for the duck."],
+                    "level_3": ["She placed the deck on the porch.", "She placed the duck on the porch."]
+                },
+                {
+                    "pair": ["peg", "pug"],
+                    "ipa": ["/pɛg/", "/pʌg/"],
+                    "level_1": ["That's a peg.", "That's a pug."],
+                    "level_2": ["He waited for the peg.", "He waited for the pug."],
+                    "level_3": ["She placed the peg on the wall.", "She placed the pug on the wall."]
+                },
+                {
+                    "pair": ["ten", "ton"],
+                    "ipa": ["/tɛn/", "/tʌn/"],
+                    "level_1": ["That's a ten.", "That's a ton."],
+                    "level_2": ["He waited for the ten.", "He waited for the ton."],
+                    "level_3": ["She placed the ten on the table.", "She placed the ton on the table."]
+                },
+                {
+                    "pair": ["vet", "vat"],
+                    "ipa": ["/vɛt/", "/væt/"],
+                    "level_1": ["That's a vet.", "That's a vat."],
+                    "level_2": ["He waited for the vet.", "He waited for the vat."],
+                    "level_3": ["She placed the vet in the clinic.", "She placed the vat in the clinic."]
+                }
+            ],
+            "/ʊ/ vs /u:/": [
+                {
+                    "pair": ["full", "fool"],
+                    "ipa": ["/fʊl/", "/fuːl/"],
+                    "level_1": ["That's full.", "That's a fool."],
+                    "level_2": ["He waited until the cup was full.", "He waited for the fool."],
+                    "level_3": ["She found the full cup on the table.", "She found the fool on the table."]
+                },
+                {
+                    "pair": ["soot", "suit"],
+                    "ipa": ["/sʊt/", "/suːt/"],
+                    "level_1": ["That's some soot.", "That's a suit."],
+                    "level_2": ["He waited for the soot to settle.", "He waited for the suit to arrive."],
+                    "level_3": ["She cleaned the soot from the floor.", "She cleaned the suit from the floor."]
+                },
+                {
+                    "pair": ["pull", "pool"],
+                    "ipa": ["/pʊl/", "/puːl/"],
+                    "level_1": ["That's a pull.", "That's a pool."],
+                    "level_2": ["He gave a strong pull on the rope.", "He waited by the pool."],
+                    "level_3": ["She felt the pull from the handle.", "She saw the pool in the backyard."]
+                },
+                {
+                    "pair": ["hood", "who’d"],
+                    "ipa": ["/hʊd/", "/huːd/"],
+                    "level_1": ["That's a hood.", "Who’d have known?"],
+                    "level_2": ["He raised the car’s hood.", "Who’d have thought of that?"],
+                    "level_3": ["She placed the hood on the chair.", "Who’d have guessed she’d be late?"]
+                },
+                {
+                    "pair": ["look", "Luke"],
+                    "ipa": ["/lʊk/", "/luːk/"],
+                    "level_1": ["That's a look.", "That's Luke."],
+                    "level_2": ["He gave her a strange look.", "He waited for Luke."],
+                    "level_3": ["She noticed the look on his face.", "She noticed Luke in the room."]
+                }
+            ],
+            "/ɪ/ vs /i:/": [
+                {
+                    "pair": ["bin", "bean"],
+                    "ipa": ["/bɪn/", "/biːn/"],
+                    "level_1": ["That's a bin.", "That's a bean."],
+                    "level_2": ["He waited for the bin.", "He waited for the bean."],
+                    "level_3": ["She put the bin away in the drawer.", "She put the bean away in the drawer."]
+                },
+                {
+                    "pair": ["fit", "feet"],
+                    "ipa": ["/fɪt/", "/fiːt/"],
+                    "level_1": ["That's a fit.", "Those are feet."],
+                    "level_2": ["Everyone gathered around to see the fit.", "Everyone gathered around to see the feet."],
+                    "level_3": ["He placed the fit on the chair.", "He placed the feet on the chair."]
+                },
+                {
+                    "pair": ["bit", "beat"],
+                    "ipa": ["/bɪt/", "/biːt/"],
+                    "level_1": ["That's a bit.", "That's a beat."],
+                    "level_2": ["I couldn’t believe my eyes when I saw the bit.", "I couldn’t believe my eyes when I saw the beat."],
+                    "level_3": ["She got a bit for her birthday.", "She got a beat for her birthday."]
+                },
+                {
+                    "pair": ["chick", "cheek"],
+                    "ipa": ["/tʃɪk/", "/tʃiːk/"],
+                    "level_1": ["That's a chick.", "That's a cheek."],
+                    "level_2": ["He was surprised to receive a chick.", "He was surprised to receive a cheek."],
+                    "level_3": ["He placed the chick on the chair.", "He placed the cheek on the chair."]
+                },
+                {
+                    "pair": ["lip", "leap"],
+                    "ipa": ["/lɪp/", "/liːp/"],
+                    "level_1": ["That's a lip.", "That's a leap."],
+                    "level_2": ["She finally found her missing lip.", "She finally found her missing leap."],
+                    "level_3": ["She put the lip away in the drawer.", "She put the leap away in the drawer."]
+                },
+                {
+                    "pair": ["pill", "peel"],
+                    "ipa": ["/pɪl/", "/piːl/"],
+                    "level_1": ["That's a pill.", "That's a peel."],
+                    "level_2": ["Look at that pill!", "Look at that peel!"],
+                    "level_3": ["I’ll get the pill from the car.", "I’ll get the peel from the car."]
+                },
+                {
+                    "pair": ["mill", "meal"],
+                    "ipa": ["/mɪl/", "/miːl/"],
+                    "level_1": ["That's a mill.", "That's a meal."],
+                    "level_2": ["Wait a moment while I get the mill.", "Wait a moment while I get the meal."],
+                    "level_3": ["They left the mill on the doorstep.", "They left the meal on the doorstep."]
+                },
+                {
+                    "pair": ["tin", "teen"],
+                    "ipa": ["/tɪn/", "/tiːn/"],
+                    "level_1": ["That's a tin.", "That's a teen."],
+                    "level_2": ["He waited for the tin.", "He waited for the teen."],
+                    "level_3": ["She put the tin away in the drawer.", "She put the teen away in the drawer."]
+                },
+                {
+                    "pair": ["pit", "peat"],
+                    "ipa": ["/pɪt/", "/piːt/"],
+                    "level_1": ["That's a pit.", "That's a peat."],
+                    "level_2": ["She finally found her missing pit.", "She finally found her missing peat."],
+                    "level_3": ["He placed the pit on the chair.", "He placed the peat on the chair."]
+                },
+                {
+                    "pair": ["tick", "teak"],
+                    "ipa": ["/tɪk/", "/tiːk/"],
+                    "level_1": ["That's a tick.", "That's a teak."],
+                    "level_2": ["Look at that tick!", "Look at that teak!"],
+                    "level_3": ["He waited for the tick until 5 o’clock.", "He waited for the teak until 5 o’clock."]
+                }
+            ],
+            "/e/ vs /ɪ/": [
+                {
+                    "pair": ["desk", "disk"],
+                    "ipa": ["/dɛsk/", "/dɪsk/"],
+                    "level_1": ["That's a desk.", "That's a disk."],
+                    "level_2": ["He waited for the desk.", "He waited for the disk."],
+                    "level_3": ["She put the desk away in the drawer.", "She put the disk away in the drawer."]
+                },
+                {
+                    "pair": ["bed", "bid"],
+                    "ipa": ["/bɛd/", "/bɪd/"],
+                    "level_1": ["That's a bed.", "That's a bid."],
+                    "level_2": ["I couldn’t believe my eyes when I saw the bed.", "I couldn’t believe my eyes when I saw the bid."],
+                    "level_3": ["He placed the bed on the chair.", "He placed the bid on the chair."]
+                },
+                {
+                    "pair": ["bell", "bill"],
+                    "ipa": ["/bɛl/", "/bɪl/"],
+                    "level_1": ["That's a bell.", "That's a bill."],
+                    "level_2": ["She finally found her missing bell.", "She finally found her missing bill."],
+                    "level_3": ["He placed the bell on the table.", "He placed the bill on the table."]
+                },
+                {
+                    "pair": ["bet", "bit"],
+                    "ipa": ["/bɛt/", "/bɪt/"],
+                    "level_1": ["That's a bet.", "That's a bit."],
+                    "level_2": ["He was surprised to receive a bet.", "He was surprised to receive a bit."],
+                    "level_3": ["She found the bet on the table.", "She found the bit on the table."]
+                },
+                {
+                    "pair": ["check", "chick"],
+                    "ipa": ["/tʃɛk/", "/tʃɪk/"],
+                    "level_1": ["That's a check.", "That's a chick."],
+                    "level_2": ["Everyone gathered around to see the check.", "Everyone gathered around to see the chick."],
+                    "level_3": ["She put the check away in the drawer.", "She put the chick away in the drawer."]
+                },
+                {
+                    "pair": ["gem", "gym"],
+                    "ipa": ["/dʒɛm/", "/dʒɪm/"],
+                    "level_1": ["That's a gem.", "That's a gym."],
+                    "level_2": ["Look at that gem!", "Look at that gym!"],
+                    "level_3": ["He placed the gem on the shelf.", "He placed the gym on the shelf."]
+                },
+                {
+                    "pair": ["pet", "pit"],
+                    "ipa": ["/pɛt/", "/pɪt/"],
+                    "level_1": ["That's a pet.", "That's a pit."],
+                    "level_2": ["He waited for the pet.", "He waited for the pit."],
+                    "level_3": ["She put the pet away in the drawer.", "She put the pit away in the drawer."]
+                },
+                {
+                    "pair": ["deck", "dick"],
+                    "ipa": ["/dɛk/", "/dɪk/"],
+                    "level_1": ["That's a deck.", "That's a dick."],
+                    "level_2": ["I couldn't believe my eyes when I saw the deck.", "I couldn't believe my eyes when I saw the dick."],
+                    "level_3": ["He placed the deck on the chair.", "He placed the dick on the chair."]
+                },
+                {
+                    "pair": ["peg", "pig"],
+                    "ipa": ["/pɛg/", "/pɪg/"],
+                    "level_1": ["That's a peg.", "That's a pig."],
+                    "level_2": ["Look at that peg!", "Look at that pig!"],
+                    "level_3": ["She placed the peg on the table.", "She placed the pig on the table."]
+                },
+                {
+                    "pair": ["lid", "lid"],
+                    "ipa": ["/lɪd/", "/lɪd/"],
+                    "level_1": ["That's a lid.", "That's a lid."],
+                    "level_2": ["She finally found her missing lid.", "She finally found her missing lid."],
+                    "level_3": ["He put the lid away in the drawer.", "He put the lid away in the drawer."]
+                }
+            ],
+            "/æ/ vs /ʌ/": [
+                {
+                    "pair": ["batter", "butter"],
+                    "ipa": ["/bætə/", "/bʌtə/"],
+                    "level_1": ["That's some batter.", "That's some butter."],
+                    "level_2": ["He waited for the batter.", "He waited for the butter."],
+                    "level_3": ["She put the batter on the table.", "She put the butter on the table."]
+                },
+                {
+                    "pair": ["cap", "cup"],
+                    "ipa": ["/kæp/", "/kʌp/"],
+                    "level_1": ["That's a cap.", "That's a cup."],
+                    "level_2": ["He waited for the cap.", "He waited for the cup."],
+                    "level_3": ["She put the cap on the chair.", "She put the cup on the chair."]
+                },
+                {
+                    "pair": ["hat", "hut"],
+                    "ipa": ["/hæt/", "/hʌt/"],
+                    "level_1": ["That's a hat.", "That's a hut."],
+                    "level_2": ["Look at that hat!", "Look at that hut!"],
+                    "level_3": ["He placed the hat on the desk.", "He placed the hut on the desk."]
+                },
+                {
+                    "pair": ["back", "buck"],
+                    "ipa": ["/bæk/", "/bʌk/"],
+                    "level_1": ["That's a back.", "That's a buck."],
+                    "level_2": ["He waited for the back.", "He waited for the buck."],
+                    "level_3": ["She put the back on the chair.", "She put the buck on the chair."]
+                },
+                {
+                    "pair": ["bag", "bug"],
+                    "ipa": ["/bæg/", "/bʌg/"],
+                    "level_1": ["That's a bag.", "That's a bug."],
+                    "level_2": ["Everyone gathered around to see the bag.", "Everyone gathered around to see the bug."],
+                    "level_3": ["She found the bag on the table.", "She found the bug on the table."]
+                },
+                {
+                    "pair": ["track", "truck"],
+                    "ipa": ["/træk/", "/trʌk/"],
+                    "level_1": ["That's a track.", "That's a truck."],
+                    "level_2": ["He waited for the track.", "He waited for the truck."],
+                    "level_3": ["She placed the track on the table.", "She placed the truck on the table."]
+                },
+                {
+                    "pair": ["paddle", "puddle"],
+                    "ipa": ["/pædl/", "/pʌdl/"],
+                    "level_1": ["That's a paddle.", "That's a puddle."],
+                    "level_2": ["He waited for the paddle.", "He waited for the puddle."],
+                    "level_3": ["She put the paddle away in the drawer.", "She put the puddle away in the drawer."]
+                },
+                {
+                    "pair": ["pat", "putt"],
+                    "ipa": ["/pæt/", "/pʌt/"],
+                    "level_1": ["That's a pat.", "That's a putt."],
+                    "level_2": ["Look at that pat!", "Look at that putt!"],
+                    "level_3": ["He placed the pat on the chair.", "He placed the putt on the chair."]
+                },
+                {
+                    "pair": ["rag", "rug"],
+                    "ipa": ["/ræg/", "/rʌg/"],
+                    "level_1": ["That's a rag.", "That's a rug."],
+                    "level_2": ["He waited for the rag.", "He waited for the rug."],
+                    "level_3": ["She put the rag on the table.", "She put the rug on the table."]
+                },
+                {
+                    "pair": ["tab", "tub"],
+                    "ipa": ["/tæb/", "/tʌb/"],
+                    "level_1": ["That's a tab.", "That's a tub."],
+                    "level_2": ["Look at that tab!", "Look at that tub!"],
+                    "level_3": ["She placed the tab on the chair.", "She placed the tub on the chair."]
+                }
+            ],
+            "/ɑ:/ vs /ɜ:/": [
+                {
+                    "pair": ["bath", "berth"],
+                    "ipa": ["/bɑːθ/", "/bɜːθ/"],
+                    "level_1": ["That's a bath.", "That's a berth."],
+                    "level_2": ["He waited for the bath.", "He waited for the berth."],
+                    "level_3": ["She placed the bath near the window.", "She placed the berth near the window."]
+                },
+                {
+                    "pair": ["bard", "bird"],
+                    "ipa": ["/bɑːd/", "/bɜːd/"],
+                    "level_1": ["That's a bard.", "That's a bird."],
+                    "level_2": ["He waited for the bard.", "He waited for the bird."],
+                    "level_3": ["She saw the bard on the stage.", "She saw the bird on the stage."]
+                },
+                {
+                    "pair": ["card", "curd"],
+                    "ipa": ["/kɑːd/", "/kɜːd/"],
+                    "level_1": ["That's a card.", "That's a curd."],
+                    "level_2": ["He waited for the card.", "He waited for the curd."],
+                    "level_3": ["She placed the card on the desk.", "She placed the curd on the desk."]
+                },
+                {
+                    "pair": ["hard", "herd"],
+                    "ipa": ["/hɑːd/", "/hɜːd/"],
+                    "level_1": ["That's a hard.", "That's a herd."],
+                    "level_2": ["He waited for the hard.", "He waited for the herd."],
+                    "level_3": ["She saw the hard in the field.", "She saw the herd in the field."]
+                },
+                {
+                    "pair": ["bar", "burr"],
+                    "ipa": ["/bɑː/", "/bɜː/"],
+                    "level_1": ["That's a bar.", "That's a burr."],
+                    "level_2": ["He waited for the bar.", "He waited for the burr."],
+                    "level_3": ["She placed the bar on the table.", "She placed the burr on the table."]
+                },
+                {
+                    "pair": ["dart", "dirt"],
+                    "ipa": ["/dɑːt/", "/dɜːt/"],
+                    "level_1": ["That's a dart.", "That's some dirt."],
+                    "level_2": ["He waited for the dart.", "He waited for the dirt."],
+                    "level_3": ["She placed the dart on the shelf.", "She placed the dirt on the shelf."]
+                },
+                {
+                    "pair": ["carbs", "curbs"],
+                    "ipa": ["/kɑːbz/", "/kɜːbz/"],
+                    "level_1": ["That's a carb.", "That's a curb."],
+                    "level_2": ["He waited for the carbs.", "He waited for the curbs."],
+                    "level_3": ["She placed the carbs on the plate.", "She placed the curbs on the plate."]
+                },
+                {
+                    "pair": ["tarps", "turps"],
+                    "ipa": ["/tɑːps/", "/tɜːps/"],
+                    "level_1": ["That's a tarp.", "That's a turp."],
+                    "level_2": ["He waited for the tarp.", "He waited for the turp."],
+                    "level_3": ["She placed the tarp in the corner.", "She placed the turp in the corner."]
+                }
+            ],
+            "/æ/ vs /ɑ:/": [
+                {
+                    "pair": ["back", "bark"],
+                    "ipa": ["/bæk/", "/bɑːk/"],
+                    "level_1": ["That's a back.", "That's a bark."],
+                    "level_2": ["He waited for the back.", "He waited for the bark."],
+                    "level_3": ["She placed the back on the table.", "She placed the bark on the table."]
+                },
+                {
+                    "pair": ["bad", "bard"],
+                    "ipa": ["/bæd/", "/bɑːd/"],
+                    "level_1": ["That's a bad.", "That's a bard."],
+                    "level_2": ["He waited for the bad.", "He waited for the bard."],
+                    "level_3": ["She put the bad in the drawer.", "She put the bard in the drawer."]
+                },
+                {
+                    "pair": ["ban", "barn"],
+                    "ipa": ["/bæn/", "/bɑːn/"],
+                    "level_1": ["That's a ban.", "That's a barn."],
+                    "level_2": ["He waited for the ban.", "He waited for the barn."],
+                    "level_3": ["She placed the ban in the corner.", "She placed the barn in the corner."]
+                },
+                {
+                    "pair": ["cad", "card"],
+                    "ipa": ["/kæd/", "/kɑːd/"],
+                    "level_1": ["That's a cad.", "That's a card."],
+                    "level_2": ["He waited for the cad.", "He waited for the card."],
+                    "level_3": ["She placed the cad on the desk.", "She placed the card on the desk."]
+                },
+                {
+                    "pair": ["pack", "park"],
+                    "ipa": ["/pæk/", "/pɑːk/"],
+                    "level_1": ["That's a pack.", "That's a park."],
+                    "level_2": ["He waited for the pack.", "He waited for the park."],
+                    "level_3": ["She put the pack in the bag.", "She put the park in the bag."]
+                },
+                {
+                    "pair": ["cabs", "carbs"],
+                    "ipa": ["/kæbz/", "/kɑːbz/"],
+                    "level_1": ["That's a cab.", "That's a carb."],
+                    "level_2": ["He waited for the cab.", "He waited for the carb."],
+                    "level_3": ["She placed the cab on the street.", "She placed the carb on the street."]
+                },
+                {
+                    "pair": ["cap", "carp"],
+                    "ipa": ["/kæp/", "/kɑːp/"],
+                    "level_1": ["That's a cap.", "That's a carp."],
+                    "level_2": ["He waited for the cap.", "He waited for the carp."],
+                    "level_3": ["She placed the cap on the table.", "She placed the carp on the table."]
+                },
+                {
+                    "pair": ["cat", "cart"],
+                    "ipa": ["/kæt/", "/kɑːt/"],
+                    "level_1": ["That's a cat.", "That's a cart."],
+                    "level_2": ["He waited for the cat.", "He waited for the cart."],
+                    "level_3": ["She put the cat in the corner.", "She put the cart in the corner."]
+                },
+                {
+                    "pair": ["mat", "mart"],
+                    "ipa": ["/mæt/", "/mɑːt/"],
+                    "level_1": ["That's a mat.", "That's a mart."],
+                    "level_2": ["He waited for the mat.", "He waited for the mart."],
+                    "level_3": ["She placed the mat on the floor.", "She placed the mart on the floor."]
+                },
+                {
+                    "pair": ["shack", "shark"],
+                    "ipa": ["/ʃæk/", "/ʃɑːk/"],
+                    "level_1": ["That's a shack.", "That's a shark."],
+                    "level_2": ["He waited for the shack.", "He waited for the shark."],
+                    "level_3": ["She placed the shack by the shore.", "She placed the shark by the shore."]
+                }
+            ],
+            "/ɒ/ vs /ɔ:/": [
+                {
+                    "pair": ["fox", "forks"],
+                    "ipa": ["/fɒks/", "/fɔːks/"],
+                    "level_1": ["That's a fox.", "Those are forks."],
+                    "level_2": ["He waited for the fox.", "He waited for the forks."],
+                    "level_3": ["She placed the fox on the chair.", "She placed the forks on the chair."]
+                },
+                {
+                    "pair": ["chock", "chalk"],
+                    "ipa": ["/tʃɒk/", "/tʃɔːk/"],
+                    "level_1": ["That's a chock.", "That's some chalk."],
+                    "level_2": ["He waited for the chock.", "He waited for the chalk."],
+                    "level_3": ["She placed the chock on the desk.", "She placed the chalk on the desk."]
+                },
+                {
+                    "pair": ["cock", "cork"],
+                    "ipa": ["/kɒk/", "/kɔːk/"],
+                    "level_1": ["That's a cock.", "That's a cork."],
+                    "level_2": ["He waited for the cock.", "He waited for the cork."],
+                    "level_3": ["She placed the cock on the table.", "She placed the cork on the table."]
+                },
+                {
+                    "pair": ["cot", "court"],
+                    "ipa": ["/kɒt/", "/kɔːt/"],
+                    "level_1": ["That's a cot.", "That's a court."],
+                    "level_2": ["He waited for the cot.", "He waited for the court."],
+                    "level_3": ["She placed the cot near the window.", "She placed the court near the window."]
+                },
+                {
+                    "pair": ["stock", "stalk"],
+                    "ipa": ["/stɒk/", "/stɔːk/"],
+                    "level_1": ["That's a stock.", "That's a stalk."],
+                    "level_2": ["He waited for the stock.", "He waited for the stalk."],
+                    "level_3": ["She placed the stock on the shelf.", "She placed the stalk on the shelf."]
+                },
+                {
+                    "pair": ["cod", "cord"],
+                    "ipa": ["/kɒd/", "/kɔːd/"],
+                    "level_1": ["That's a cod.", "That's a cord."],
+                    "level_2": ["He waited for the cod.", "He waited for the cord."],
+                    "level_3": ["She put the cod on the desk.", "She put the cord on the desk."]
+                },
+                {
+                    "pair": ["pot", "port"],
+                    "ipa": ["/pɒt/", "/pɔːt/"],
+                    "level_1": ["That's a pot.", "That's a port."],
+                    "level_2": ["He waited for the pot.", "He waited for the port."],
+                    "level_3": ["She placed the pot on the table.", "She placed the port on the table."]
+                },
+                {
+                    "pair": ["bobble", "bauble"],
+                    "ipa": ["/bɒbl/", "/bɔːbl/"],
+                    "level_1": ["That's a bobble.", "That's a bauble."],
+                    "level_2": ["He waited for the bobble.", "He waited for the bauble."],
+                    "level_3": ["She placed the bobble on the tree.", "She placed the bauble on the tree."]
+                },
+                {
+                    "pair": ["wad", "ward"],
+                    "ipa": ["/wɒd/", "/wɔːd/"],
+                    "level_1": ["That's a wad.", "That's a ward."],
+                    "level_2": ["He waited for the wad.", "He waited for the ward."],
+                    "level_3": ["She put the wad in the drawer.", "She put the ward in the drawer."]
+                }
+            ]
+        },
+
+
+        
+"diphthongs": {
+      "/e/ vs /eɪ/": [
+        {
+          "pair": ["bread", "braid"],
+          "ipa": ["/bred/", "/breɪd/"],
+          "level_1": ["That's some bread.", "That's a braid."],
+          "level_2": ["He waited for the bread.", "He waited for the braid."],
+          "level_3": ["She put the bread away in the drawer.", "She put the braid away in the drawer."]
+        },
+        {
+          "pair": ["well", "whale"],
+          "ipa": ["/wɛl/", "/weɪl/"],
+          "level_1": ["That's a well.", "That's a whale."],
+          "level_2": ["Look at that well!", "Look at that whale!"],
+          "level_3": ["He placed the well in the corner.", "He placed the whale in the corner."]
+        },
+        {
+          "pair": ["gel", "jail"],
+          "ipa": ["/dʒɛl/", "/dʒeɪl/"],
+          "level_1": ["That's some gel.", "That's a jail."],
+          "level_2": ["Everyone gathered around to see the gel.", "Everyone gathered around to see the jail."],
+          "level_3": ["She put the gel on the table.", "She put the jail on the table."]
+        },
+        {
+          "pair": ["lens", "lanes"],
+          "ipa": ["/lɛnz/", "/leɪnz/"],
+          "level_1": ["That's a lens.", "Those are lanes."],
+          "level_2": ["He waited for the lens.", "He waited for the lanes."],
+          "level_3": ["She put the lens away in the drawer.", "She put the lanes away in the drawer."]
+        },
+        {
+          "pair": ["bell", "bail"],
+          "ipa": ["/bɛl/", "/beɪl/"],
+          "level_1": ["That's a bell.", "That's a bail."],
+          "level_2": ["He waited for the bell.", "He waited for the bail."],
+          "level_3": ["She found the bell on the table.", "She found the bail on the table."]
+        },
+        {
+          "pair": ["shed", "shade"],
+          "ipa": ["/ʃɛd/", "/ʃeɪd/"],
+          "level_1": ["That's a shed.", "That's a shade."],
+          "level_2": ["Everyone gathered around to see the shed.", "Everyone gathered around to see the shade."],
+          "level_3": ["He placed the shed on the chair.", "He placed the shade on the chair."]
+        },
+        {
+          "pair": ["shell", "shale"],
+          "ipa": ["/ʃɛl/", "/ʃeɪl/"],
+          "level_1": ["That's a shell.", "That's some shale."],
+          "level_2": ["He waited for the shell.", "He waited for the shale."],
+          "level_3": ["She put the shell on the desk.", "She put the shale on the desk."]
+        },
+        {
+          "pair": ["sped", "spade"],
+          "ipa": ["/spɛd/", "/speɪd/"],
+          "level_1": ["He sped to the meeting.", "That's a spade."],
+          "level_2": ["Look at that sped.", "Look at that spade."],
+          "level_3": ["She put the sped on the chair.", "She put the spade on the chair."]
+        },
+        {
+          "pair": ["wedge", "wage"],
+          "ipa": ["/wɛdʒ/", "/weɪdʒ/"],
+          "level_1": ["That's a wedge.", "That's a wage."],
+          "level_2": ["He waited for the wedge.", "He waited for the wage."],
+          "level_3": ["She placed the wedge on the table.", "She placed the wage on the table."]
+        },
+        {
+          "pair": ["wreck", "rake"],
+          "ipa": ["/rɛk/", "/reɪk/"],
+          "level_1": ["That's a wreck.", "That's a rake."],
+          "level_2": ["Look at that wreck!", "Look at that rake!"],
+          "level_3": ["He placed the wreck on the chair.", "He placed the rake on the chair."]
+        }
+      ],
+      "/əʊ/ vs /aʊ/": [
+        {
+          "pair": ["tone", "town"],
+          "ipa": ["/təʊn/", "/taʊn/"],
+          "level_1": ["That's a tone.", "That's a town."],
+          "level_2": ["He waited for the tone.", "He waited for the town."],
+          "level_3": ["She placed the tone on the paper.", "She placed the town on the paper."]
+        },
+        {
+          "pair": ["blows", "blouse"],
+          "ipa": ["/bləʊz/", "/blaʊs/"],
+          "level_1": ["Those are blows.", "That's a blouse."],
+          "level_2": ["He waited for the blows.", "He waited for the blouse."],
+          "level_3": ["She placed the blows on the table.", "She placed the blouse on the table."]
+        },
+        {
+          "pair": ["boat", "bout"],
+          "ipa": ["/bəʊt/", "/baʊt/"],
+          "level_1": ["That's a boat.", "That's a bout."],
+          "level_2": ["He waited for the boat.", "He waited for the bout."],
+          "level_3": ["She placed the boat by the dock.", "She placed the bout by the dock."]
+        },
+        {
+          "pair": ["co", "cow"],
+          "ipa": ["/kəʊ/", "/kaʊ/"],
+          "level_1": ["That's a co.", "That's a cow."],
+          "level_2": ["He waited for the co.", "He waited for the cow."],
+          "level_3": ["She placed the co on the field.", "She placed the cow on the field."]
+        },
+        {
+          "pair": ["bow", "bow"],
+          "ipa": ["/bəʊ/", "/baʊ/"],
+          "level_1": ["That's a bow.", "That's a bow."],
+          "level_2": ["He waited for the bow.", "He waited for the bow."],
+          "level_3": ["She placed the bow on the shelf.", "She placed the bow on the shelf."]
+        },
+        {
+          "pair": ["clone", "clown"],
+          "ipa": ["/kləʊn/", "/klaʊn/"],
+          "level_1": ["That's a clone.", "That's a clown."],
+          "level_2": ["He waited for the clone.", "He waited for the clown."],
+          "level_3": ["She placed the clone on the stage.", "She placed the clown on the stage."]
+        },
+        {
+          "pair": ["bro", "brow"],
+          "ipa": ["/brəʊ/", "/braʊ/"],
+          "level_1": ["That's a bro.", "That's a brow."],
+          "level_2": ["He waited for the bro.", "He waited for the brow."],
+          "level_3": ["She placed the bro on the chair.", "She placed the brow on the chair."]
+        },
+        {
+          "pair": ["crone", "crown"],
+          "ipa": ["/krəʊn/", "/kraʊn/"],
+          "level_1": ["That's a crone.", "That's a crown."],
+          "level_2": ["He waited for the crone.", "He waited for the crown."],
+          "level_3": ["She placed the crone on the table.", "She placed the crown on the table."]
+        },
+        {
+          "pair": ["foal", "fowl"],
+          "ipa": ["/fəʊl/", "/faʊl/"],
+          "level_1": ["That's a foal.", "That's a fowl."],
+          "level_2": ["He waited for the foal.", "He waited for the fowl."],
+          "level_3": ["She placed the foal in the barn.", "She placed the fowl in the barn."]
+        }
+      ],
+      "/əʊ/ vs /ɔ:/": [
+        {
+          "pair": ["bowl", "ball"],
+          "ipa": ["/bəʊl/", "/bɔ:l/"],
+          "level_1": ["That's a bowl.", "That's a ball."],
+          "level_2": ["He waited for the bowl.", "He waited for the ball."],
+          "level_3": ["She put the bowl on the table.", "She put the ball on the table."]
+        },
+        {
+          "pair": ["doe", "door"],
+          "ipa": ["/dəʊ/", "/dɔ:/"],
+          "level_1": ["That's a doe.", "That's a door."],
+          "level_2": ["He waited for the doe.", "He waited for the door."],
+          "level_3": ["She placed the doe in the corner.", "She placed the door in the corner."]
+        },
+        {
+          "pair": ["dome", "dorm"],
+          "ipa": ["/dəʊm/", "/dɔ:m/"],
+          "level_1": ["That's a dome.", "That's a dorm."],
+          "level_2": ["He waited for the dome.", "He waited for the dorm."],
+          "level_3": ["She put the dome on the shelf.", "She put the dorm on the shelf."]
+        },
+        {
+          "pair": ["stow", "store"],
+          "ipa": ["/stəʊ/", "/stɔ:/"],
+          "level_1": ["That's a stow.", "That's a store."],
+          "level_2": ["He waited for the stow.", "He waited for the store."],
+          "level_3": ["She placed the stow on the table.", "She placed the store on the table."]
+        },
+        {
+          "pair": ["code", "cord"],
+          "ipa": ["/kəʊd/", "/kɔ:d/"],
+          "level_1": ["That's a code.", "That's a cord."],
+          "level_2": ["He waited for the code.", "He waited for the cord."],
+          "level_3": ["She put the code on the desk.", "She put the cord on the desk."]
+        },
+        {
+          "pair": ["cone", "corn"],
+          "ipa": ["/kəʊn/", "/kɔ:n/"],
+          "level_1": ["That's a cone.", "That's some corn."],
+          "level_2": ["Look at that cone.", "Look at that corn."],
+          "level_3": ["He placed the cone on the chair.", "He placed the corn on the chair."]
+        },
+        {
+          "pair": ["hone", "horn"],
+          "ipa": ["/həʊn/", "/hɔ:n/"],
+          "level_1": ["That's a hone.", "That's a horn."],
+          "level_2": ["He waited for the hone.", "He waited for the horn."],
+          "level_3": ["She placed the hone on the desk.", "She placed the horn on the desk."]
+        },
+        {
+          "pair": ["mole", "maul"],
+          "ipa": ["/məʊl/", "/mɔ:l/"],
+          "level_1": ["That's a mole.", "That's a maul."],
+          "level_2": ["Look at that mole.", "Look at that maul."],
+          "level_3": ["He placed the mole on the chair.", "He placed the maul on the chair."]
+        },
+        {
+          "pair": ["coke", "cork"],
+          "ipa": ["/kəʊk/", "/kɔ:k/"],
+          "level_1": ["That's a coke.", "That's a cork."],
+          "level_2": ["He waited for the coke.", "He waited for the cork."],
+          "level_3": ["She put the coke on the shelf.", "She put the cork on the shelf."]
+        },
+        {
+          "pair": ["stoke", "stork"],
+          "ipa": ["/stəʊk/", "/stɔ:k/"],
+          "level_1": ["That's a stoke.", "That's a stork."],
+          "level_2": ["He waited for the stoke.", "He waited for the stork."],
+          "level_3": ["She placed the stoke on the table.", "She placed the stork on the table."]
+        }
+      ],
+      "/ɔɪ/ vs /aʊ/": [
+        {
+          "pair": ["boy", "bough"],
+          "ipa": ["/bɔɪ/", "/baʊ/"],
+          "level_1": ["That's a boy.", "That's a bough."],
+          "level_2": ["He waited for the boy.", "He waited for the bough."],
+          "level_3": ["She placed the boy in the yard.", "She placed the bough in the yard."]
+        },
+        {
+          "pair": ["boy", "bow"],
+          "ipa": ["/bɔɪ/", "/baʊ/"],
+          "level_1": ["That's a boy.", "That's a bow."],
+          "level_2": ["He waited for the boy.", "He waited for the bow."],
+          "level_3": ["She placed the boy by the tree.", "She placed the bow by the tree."]
+        },
+        {
+          "pair": ["buoy", "bough"],
+          "ipa": ["/bɔɪ/", "/baʊ/"],
+          "level_1": ["That's a buoy.", "That's a bough."],
+          "level_2": ["He waited for the buoy.", "He waited for the bough."],
+          "level_3": ["She placed the buoy in the water.", "She placed the bough in the water."]
+        },
+        {
+          "pair": ["buoy", "bow"],
+          "ipa": ["/bɔɪ/", "/baʊ/"],
+          "level_1": ["That's a buoy.", "That's a bow."],
+          "level_2": ["He waited for the buoy.", "He waited for the bow."],
+          "level_3": ["She placed the buoy on the shore.", "She placed the bow on the shore."]
+        },
+        {
+          "pair": ["coil", "cowl"],
+          "ipa": ["/kɔɪl/", "/kaʊl/"],
+          "level_1": ["That's a coil.", "That's a cowl."],
+          "level_2": ["He waited for the coil.", "He waited for the cowl."],
+          "level_3": ["She placed the coil on the table.", "She placed the cowl on the table."]
+        },
+        {
+          "pair": ["joist", "joust"],
+          "ipa": ["/dʒɔɪst/", "/dʒaʊst/"],
+          "level_1": ["That's a joist.", "That's a joust."],
+          "level_2": ["He waited for the joist.", "He waited for the joust."],
+          "level_3": ["She placed the joist on the wall.", "She placed the joust on the wall."]
+        },
+        {
+          "pair": ["oil", "owl"],
+          "ipa": ["/ɔɪl/", "/aʊl/"],
+          "level_1": ["That's some oil.", "That's an owl."],
+          "level_2": ["He waited for the oil.", "He waited for the owl."],
+          "level_3": ["She placed the oil on the table.", "She placed the owl on the table."]
+        },
+        {
+          "pair": ["soy", "sow"],
+          "ipa": ["/sɔɪ/", "/saʊ/"],
+          "level_1": ["That's some soy.", "That's a sow."],
+          "level_2": ["He waited for the soy.", "He waited for the sow."],
+          "level_3": ["She placed the soy on the shelf.", "She placed the sow in the pen."]
+        }
+      ],
+      "/ɪə/ vs /eə/": [
+        {
+          "pair": ["beer", "bear"],
+          "ipa": ["/bɪə/", "/beə/"],
+          "level_1": ["That's a beer.", "That's a bear."],
+          "level_2": ["He waited for the beer.", "He waited for the bear."],
+          "level_3": ["She placed the beer on the table.", "She placed the bear on the table."]
+        },
+        {
+          "pair": ["bier", "bear"],
+          "ipa": ["/bɪə/", "/beə/"],
+          "level_1": ["That's a bier.", "That's a bear."],
+          "level_2": ["He waited for the bier.", "He waited for the bear."],
+          "level_3": ["She placed the bier in the corner.", "She placed the bear in the corner."]
+        },
+        {
+          "pair": ["cheer", "chair"],
+          "ipa": ["/tʃɪə/", "/tʃeə/"],
+          "level_1": ["That's a cheer.", "That's a chair."],
+          "level_2": ["He waited for the cheer.", "He waited for the chair."],
+          "level_3": ["She placed the cheer on the stage.", "She placed the chair on the stage."]
+        },
+        {
+          "pair": ["ear", "air"],
+          "ipa": ["/ɪə/", "/eə/"],
+          "level_1": ["That's an ear.", "That's some air."],
+          "level_2": ["He waited for the ear.", "He waited for the air."],
+          "level_3": ["She placed the ear on the table.", "She placed the air on the table."]
+        },
+        {
+          "pair": ["leer", "lair"],
+          "ipa": ["/lɪə/", "/leə/"],
+          "level_1": ["That's a leer.", "That's a lair."],
+          "level_2": ["He waited for the leer.", "He waited for the lair."],
+          "level_3": ["She placed the leer on the wall.", "She placed the lair on the wall."]
+        },
+        {
+          "pair": ["peer", "pair"],
+          "ipa": ["/pɪə/", "/peə/"],
+          "level_1": ["That's a peer.", "That's a pair."],
+          "level_2": ["He waited for the peer.", "He waited for the pair."],
+          "level_3": ["She placed the peer in the room.", "She placed the pair in the room."]
+        },
+        {
+          "pair": ["pier", "pair"],
+          "ipa": ["/pɪə/", "/peə/"],
+          "level_1": ["That's a pier.", "That's a pair."],
+          "level_2": ["He waited for the pier.", "He waited for the pair."],
+          "level_3": ["She placed the pier by the water.", "She placed the pair by the water."]
+        },
+        {
+          "pair": ["shear", "share"],
+          "ipa": ["/ʃɪə/", "/ʃeə/"],
+          "level_1": ["That's a shear.", "That's a share."],
+          "level_2": ["He waited for the shear.", "He waited for the share."],
+          "level_3": ["She placed the shear on the desk.", "She placed the share on the desk."]
+        },
+        {
+          "pair": ["steer", "stair"],
+          "ipa": ["/stɪə/", "/steə/"],
+          "level_1": ["That's a steer.", "That's a stair."],
+          "level_2": ["He waited for the steer.", "He waited for the stair."],
+          "level_3": ["She placed the steer in the field.", "She placed the stair in the field."]
+        },
+        {
+          "pair": ["weir", "ware"],
+          "ipa": ["/wɪə/", "/weə/"],
+          "level_1": ["That's a weir.", "That's some ware."],
+          "level_2": ["He waited for the weir.", "He waited for the ware."],
+          "level_3": ["She placed the weir by the river.", "She placed the ware by the river."]
+        }
+      ],
+      "/ɪə/ vs /eɪ/": [
+        {
+          "pair": ["beer", "bay"],
+          "ipa": ["/bɪə/", "/beɪ/"],
+          "level_1": ["That's a beer.", "That's a bay."],
+          "level_2": ["He waited for the beer.", "He waited for the bay."],
+          "level_3": ["She placed the beer on the table.", "She placed the bay on the table."]
+        },
+        {
+          "pair": ["clear", "clay"],
+          "ipa": ["/klɪə/", "/kleɪ/"],
+          "level_1": ["That's clear.", "That's some clay."],
+          "level_2": ["He waited for the clear.", "He waited for the clay."],
+          "level_3": ["She placed the clear on the shelf.", "She placed the clay on the shelf."]
+        },
+        {
+          "pair": ["fear", "fey"],
+          "ipa": ["/fɪə/", "/feɪ/"],
+          "level_1": ["That's a fear.", "That's a fey."],
+          "level_2": ["He waited for the fear.", "He waited for the fey."],
+          "level_3": ["She placed the fear on the table.", "She placed the fey on the table."]
+        },
+        {
+          "pair": ["gear", "gay"],
+          "ipa": ["/gɪə/", "/geɪ/"],
+          "level_1": ["That's some gear.", "That's a gay."],
+          "level_2": ["He waited for the gear.", "He waited for the gay."],
+          "level_3": ["She placed the gear in the box.", "She placed the gay in the box."]
+        },
+        {
+          "pair": ["rear", "ray"],
+          "ipa": ["/rɪə/", "/reɪ/"],
+          "level_1": ["That's a rear.", "That's a ray."],
+          "level_2": ["He waited for the rear.", "He waited for the ray."],
+          "level_3": ["She placed the rear in the field.", "She placed the ray in the field."]
+        }
+      ]
+    },
+        "consonants": {
+            "/b/ vs /v/": [
+      {
+        "pair": ["ban", "van"],
+        "ipa": ["/bæn/", "/væn/"],
+        "level_1": ["That's a ban.", "That's a van."],
+        "level_2": ["Everyone gathered around to see the ban.", "Everyone gathered around to see the van."],
+        "level_3": ["She put the ban notice away in the drawer.", "She put the van keys away in the drawer."]
+      },
+      {
+        "pair": ["bat", "vat"],
+        "ipa": ["/bæt/", "/væt/"],
+        "level_1": ["That's a bat.", "That's a vat."],
+        "level_2": ["He was surprised to receive a bat.", "He was surprised to receive a vat."],
+        "level_3": ["I'll grab the bat from the car.", "I'll grab the vat from the car."]
+      },
+      {
+        "pair": ["boat", "vote"],
+        "ipa": ["/boʊt/", "/voʊt/"],
+        "level_1": ["That's a boat.", "That's a vote."],
+        "level_2": ["He waited for the boat.", "He waited for the vote."],
+        "level_3": ["They left the boat on the doorstep.", "They left the vote results on the doorstep."]
+      },
+      {
+        "pair": ["bowl", "vole"],
+        "ipa": ["/boʊl/", "/voʊl/"],
+        "level_1": ["That's a bowl.", "That's a vole."],
+        "level_2": ["Wait a moment while I get the bowl.", "Wait a moment while I get the vole."],
+        "level_3": ["He placed the bowl on the chair.", "He placed the vole on the chair."]
+      },
+      {
+        "pair": ["bet", "vet"],
+        "ipa": ["/bɛt/", "/vɛt/"],
+        "level_1": ["That's a bet.", "That's a vet."],
+        "level_2": ["He waited for the bet.", "He waited for the vet."],
+        "level_3": ["She got a bet for her birthday.", "She got a vet for her birthday."]
+      },
+      {
+        "pair": ["bale", "veil"],
+        "ipa": ["/beɪl/", "/veɪl/"],
+        "level_1": ["That's a bale.", "That's a veil."],
+        "level_2": ["She finally found her missing bale.", "She finally found her missing veil."],
+        "level_3": ["He placed the bale on the doorstep.", "He placed the veil on the doorstep."]
+      },
+      {
+        "pair": ["bowel", "vowel"],
+        "ipa": ["/ˈbaʊəl/", "/ˈvaʊəl/"],
+        "level_1": ["That's a bowel.", "That's a vowel."],
+        "level_2": ["Look at that bowel.", "Look at that vowel."],
+        "level_3": ["I'll grab the bowel from the car.", "I'll grab the vowel from the car."]
+      }
+    ],
+    "/b/ vs /p/": [
+      {
+        "pair": ["ban", "pan"],
+        "ipa": ["/bæn/", "/pæn/"],
+        "level_1": ["That's a ban.", "That's a pan."],
+        "level_2": ["He was surprised to receive a ban.", "He was surprised to receive a pan."],
+        "level_3": ["She put the ban away in the drawer.", "She put the pan away in the drawer."]
+      },
+      {
+        "pair": ["bat", "pat"],
+        "ipa": ["/bæt/", "/pæt/"],
+        "level_1": ["That's a bat.", "That's a pat."],
+        "level_2": ["Everyone gathered around to see the bat.", "Everyone gathered around to see the pat."],
+        "level_3": ["He placed the bat on the chair.", "He placed the pat on the chair."]
+      },
+      {
+        "pair": ["bin", "pin"],
+        "ipa": ["/bɪn/", "/pɪn/"],
+        "level_1": ["That's a bin.", "That's a pin."],
+        "level_2": ["He waited for the bin.", "He waited for the pin."],
+        "level_3": ["I'll grab the bin from the car.", "I'll grab the pin from the car."]
+      },
+      {
+        "pair": ["bet", "pet"],
+        "ipa": ["/bɛt/", "/pɛt/"],
+        "level_1": ["That's a bet.", "That's a pet."],
+        "level_2": ["Wait a moment while I get the bet.", "Wait a moment while I get the pet."],
+        "level_3": ["She got a bet for her birthday.", "She got a pet for her birthday."]
+      },
+      {
+        "pair": ["bear", "pair"],
+        "ipa": ["/bɛə/", "/pɛə/"],
+        "level_1": ["That's a bear.", "That's a pair."],
+        "level_2": ["Look at that bear!", "Look at that pair!"],
+        "level_3": ["They left the bear on the doorstep.", "They left the pair on the doorstep."]
+      },
+      {
+        "pair": ["pub", "pup"],
+        "ipa": ["/pʌb/", "/pʌp/"],
+        "level_1": ["That's a pub.", "That's a pup."],
+        "level_2": ["He waited for the pub to open.", "He waited for the pup."],
+        "level_3": ["She put the pub sign away in the drawer.", "She put the pup away in the drawer."]
+      }
+    ],
+    "/n/ vs /ŋ/": [
+      {
+        "pair": ["ban", "bang"],
+        "ipa": ["/bæn/", "/bæŋ/"],
+        "level_1": ["That's a ban.", "That's a bang."],
+        "level_2": ["Wait a moment while I get the ban.", "Wait a moment while I get the bang."],
+        "level_3": ["He placed the ban notice on the chair.", "He placed the bang on the chair."]
+      },
+      {
+        "pair": ["bun", "bung"],
+        "ipa": ["/bʌn/", "/bʌŋ/"],
+        "level_1": ["That's a bun.", "That's a bung."],
+        "level_2": ["She finally found her missing bun.", "She finally found her missing bung."],
+        "level_3": ["I'll get the bun from the car.", "I'll get the bung from the car."]
+      },
+      {
+        "pair": ["clan", "clang"],
+        "ipa": ["/klæn/", "/klæŋ/"],
+        "level_1": ["That's a clan.", "That's a clang."],
+        "level_2": ["Everyone gathered around to see the clan.", "Everyone gathered around to see the clang."],
+        "level_3": ["They left the clan's banner on the doorstep.", "They left the clang on the doorstep."]
+      },
+      {
+        "pair": ["win", "wing"],
+        "ipa": ["/wɪn/", "/wɪŋ/"],
+        "level_1": ["That's a win.", "That's a wing."],
+        "level_2": ["He was surprised to receive a win.", "He was surprised to receive a wing."],
+        "level_3": ["She put the win away in the drawer.", "She put the wing away in the drawer."]
+      },
+      {
+        "pair": ["fan", "fang"],
+        "ipa": ["/fæn/", "/fæŋ/"],
+        "level_1": ["That's a fan.", "That's a fang."],
+        "level_2": ["He waited for the fan to arrive.", "He waited for the fang."],
+        "level_3": ["I'll grab the fan from the car.", "I'll grab the fang from the car."]
+      },
+      {
+        "pair": ["ton", "tongue"],
+        "ipa": ["/tʌn/", "/tʌŋ/"],
+        "level_1": ["That's a ton.", "That's a tongue."],
+        "level_2": ["Look at that ton!", "Look at that tongue!"],
+        "level_3": ["She placed the ton on the chair.", "She placed the tongue on the chair."]
+      }
+    ],
+    "/l/ vs /r/": [
+      {
+        "pair": ["led", "red"],
+        "ipa": ["/lɛd/", "/rɛd/"],
+        "level_1": ["That's a led.", "That's a red."],
+        "level_2": ["He waited for the led light.", "He waited for the red light."],
+        "level_3": ["I'll grab the led from the car.", "I'll grab the red from the car."]
+      },
+      {
+        "pair": ["lag", "rag"],
+        "ipa": ["/læɡ/", "/ræɡ/"],
+        "level_1": ["That's a lag.", "That's a rag."],
+        "level_2": ["Everyone gathered around to see the lag.", "Everyone gathered around to see the rag."],
+        "level_3": ["He placed the lag on the chair.", "He placed the rag on the chair."]
+      },
+      {
+        "pair": ["lip", "rip"],
+        "ipa": ["/lɪp/", "/rɪp/"],
+        "level_1": ["That's a lip.", "That's a rip."],
+        "level_2": ["He was surprised to receive a lip balm.", "He was surprised to receive a rip."],
+        "level_3": ["She put the lip balm away in the drawer.", "She put the rip away in the drawer."]
+      },
+      {
+        "pair": ["lock", "rock"],
+        "ipa": ["/lɒk/", "/rɒk/"],
+        "level_1": ["That's a lock.", "That's a rock."],
+        "level_2": ["Wait a moment while I get the lock.", "Wait a moment while I get the rock."],
+        "level_3": ["He placed the lock on the chair.", "He placed the rock on the chair."]
+      },
+      {
+        "pair": ["lake", "rake"],
+        "ipa": ["/leɪk/", "/reɪk/"],
+        "level_1": ["That's a lake.", "That's a rake."],
+        "level_2": ["Look at that lake!", "Look at that rake!"],
+        "level_3": ["They left the lake map on the doorstep.", "They left the rake on the doorstep."]
+      },
+      {
+        "pair": ["leaf", "reef"],
+        "ipa": ["/liːf/", "/riːf/"],
+        "level_1": ["That's a leaf.", "That's a reef."],
+        "level_2": ["He waited for the leaf to fall.", "He waited for the reef."],
+        "level_3": ["I'll grab the leaf from the car.", "I'll grab the reef from the car."]
+      },
+      {
+        "pair": ["load", "road"],
+        "ipa": ["/loʊd/", "/roʊd/"],
+        "level_1": ["That's a load.", "That's a road."],
+        "level_2": ["She finally found her missing load.", "She finally found her missing road."],
+        "level_3": ["He placed the load on the chair.", "He placed the road map on the chair."]
+      },
+      {
+        "pair": ["loom", "room"],
+        "ipa": ["/luːm/", "/ruːm/"],
+        "level_1": ["That's a loom.", "That's a room."],
+        "level_2": ["Everyone gathered around to see the loom.", "Everyone gathered around to see the room."],
+        "level_3": ["She put the loom away in the drawer.", "She put the room key away in the drawer."]
+      }
+    ],
+    "/ʧ/ vs /t/": [
+      {
+        "pair": ["chin", "tin"],
+        "ipa": ["/ʧɪn/", "/tɪn/"],
+        "level_1": ["That's a chin.", "That's a tin."],
+        "level_2": ["He waited for the chin to heal.", "He waited for the tin."],
+        "level_3": ["I'll grab the chin balm from the car.", "I'll grab the tin from the car."]
+      },
+      {
+        "pair": ["chip", "tip"],
+        "ipa": ["/ʧɪp/", "/tɪp/"],
+        "level_1": ["That's a chip.", "That's a tip."],
+        "level_2": ["Look at that chip!", "Look at that tip!"],
+        "level_3": ["She placed the chip on the chair.", "She placed the tip on the chair."]
+      },
+      {
+        "pair": ["chop", "top"],
+        "ipa": ["/ʧɒp/", "/tɒp/"],
+        "level_1": ["That's a chop.", "That's a top."],
+        "level_2": ["Wait a moment while I get the chop.", "Wait a moment while I get the top."],
+        "level_3": ["He put the chop on the table.", "He put the top on the table."]
+      },
+      {
+        "pair": ["chart", "tart"],
+        "ipa": ["/ʧɑːt/", "/tɑːt/"],
+        "level_1": ["That's a chart.", "That's a tart."],
+        "level_2": ["Everyone gathered around to see the chart.", "Everyone gathered around to see the tart."],
+        "level_3": ["They left the chart on the doorstep.", "They left the tart on the doorstep."]
+      },
+      {
+        "pair": ["chest", "test"],
+        "ipa": ["/ʧɛst/", "/tɛst/"],
+        "level_1": ["That's a chest.", "That's a test."],
+        "level_2": ["He was surprised to receive a chest.", "He was surprised to receive a test."],
+        "level_3": ["I'll get the chest from the car.", "I'll get the test from the car."]
+      },
+      {
+        "pair": ["chalk", "talk"],
+        "ipa": ["/ʧɔːk/", "/tɔːk/"],
+        "level_1": ["That's a chalk.", "That's a talk."],
+        "level_2": ["She finally found her missing chalk.", "She finally found her missing talk."],
+        "level_3": ["She placed the chalk on the desk.", "She placed the talk notes on the desk."]
+      },
+      {
+        "pair": ["chair", "tear"],
+        "ipa": ["/ʧɛə/", "/tɛə/"],
+        "level_1": ["That's a chair.", "That's a tear."],
+        "level_2": ["He waited for the chair to arrive.", "He waited for the tear to heal."],
+        "level_3": ["I'll grab the chair from the car.", "I'll grab the tear cream from the car."]
+      },
+      {
+        "pair": ["cheer", "tear"],
+        "ipa": ["/ʧɪə/", "/tɪə/"],
+        "level_1": ["That's a cheer.", "That's a tear."],
+        "level_2": ["Everyone gathered around to see the cheer.", "Everyone gathered around to see the tear."],
+        "level_3": ["She placed the cheer poster on the wall.", "She placed the tear ointment on the table."]
+      }
+    ],
+    "/f/ vs /v/": [
+      {
+        "pair": ["fan", "van"],
+        "ipa": ["/fæn/", "/væn/"],
+        "level_1": ["That's a fan.", "That's a van."],
+        "level_2": ["He waited for the fan to arrive.", "He waited for the van."],
+        "level_3": ["She placed the fan on the chair.", "She placed the van keys on the chair."]
+      },
+      {
+        "pair": ["fat", "vat"],
+        "ipa": ["/fæt/", "/væt/"],
+        "level_1": ["That's a fat.", "That's a vat."],
+        "level_2": ["Look at that fat!", "Look at that vat!"],
+        "level_3": ["I'll grab the fat from the fridge.", "I'll grab the vat from the garage."]
+      },
+      {
+        "pair": ["foul", "vowel"],
+        "ipa": ["/faʊl/", "/vaʊl/"],
+        "level_1": ["That's a foul.", "That's a vowel."],
+        "level_2": ["He was surprised to hear a foul.", "He was surprised to hear a vowel."],
+        "level_3": ["They left the foul note on the desk.", "They left the vowel list on the desk."]
+      },
+      {
+        "pair": ["foal", "vole"],
+        "ipa": ["/foʊl/", "/voʊl/"],
+        "level_1": ["That's a foal.", "That's a vole."],
+        "level_2": ["Everyone gathered around to see the foal.", "Everyone gathered around to see the vole."],
+        "level_3": ["She placed the foal in the pen.", "She placed the vole in the cage."]
+      },
+      {
+        "pair": ["safe", "save"],
+        "ipa": ["/seɪf/", "/seɪv/"],
+        "level_1": ["That's a safe.", "That's a save."],
+        "level_2": ["Wait a moment while I get the safe.", "Wait a moment while I get the save."],
+        "level_3": ["He placed the safe in the corner.", "He placed the save file in the folder."]
+      },
+      {
+        "pair": ["fee", "V"],
+        "ipa": ["/fiː/", "/viː/"],
+        "level_1": ["That's a fee.", "That's a V."],
+        "level_2": ["He waited for the fee.", "He waited for the V."],
+        "level_3": ["I'll get the fee from the envelope.", "I'll get the V from the letter."]
+      }
+    ],
+    "/f/ vs /h/": [
+      {
+        "pair": ["fat", "hat"],
+        "ipa": ["/fæt/", "/hæt/"],
+        "level_1": ["That's a fat.", "That's a hat."],
+        "level_2": ["He was surprised to see the fat.", "He was surprised to see the hat."],
+        "level_3": ["She put the fat in the fridge.", "She put the hat in the closet."]
+      },
+      {
+        "pair": ["fit", "hit"],
+        "ipa": ["/fɪt/", "/hɪt/"],
+        "level_1": ["That's a fit.", "That's a hit."],
+        "level_2": ["Everyone gathered around to see the fit.", "Everyone gathered around to see the hit."],
+        "level_3": ["He placed the fit person on the team.", "He placed the hit song on the playlist."]
+      },
+      {
+        "pair": ["fog", "hog"],
+        "ipa": ["/fɒɡ/", "/hɒɡ/"],
+        "level_1": ["That's a fog.", "That's a hog."],
+        "level_2": ["Wait a moment while I get the fog machine.", "Wait a moment while I get the hog."],
+        "level_3": ["They left the fog in the forest.", "They left the hog in the barn."]
+      },
+      {
+        "pair": ["fare", "hare"],
+        "ipa": ["/fɛə/", "/hɛə/"],
+        "level_1": ["That's a fare.", "That's a hare."],
+        "level_2": ["He waited for the bus fare.", "He waited for the hare."],
+        "level_3": ["I'll grab the fare from the wallet.", "I'll grab the hare from the pen."]
+      },
+      {
+        "pair": ["fail", "hail"],
+        "ipa": ["/feɪl/", "/heɪl/"],
+        "level_1": ["That's a fail.", "That's a hail."],
+        "level_2": ["He was surprised to receive a fail.", "He was surprised to see the hail."],
+        "level_3": ["They left the fail grade on the desk.", "They left the hail report on the doorstep."]
+      },
+      {
+        "pair": ["fall", "hall"],
+        "ipa": ["/fɔːl/", "/hɔːl/"],
+        "level_1": ["That's a fall.", "That's a hall."],
+        "level_2": ["Everyone gathered around to see the fall.", "Everyone gathered around to see the hall."],
+        "level_3": ["She put the fall leaves in the basket.", "She put the hall map on the wall."]
+      },
+      {
+        "pair": ["foam", "home"],
+        "ipa": ["/foʊm/", "/hoʊm/"],
+        "level_1": ["That's a foam.", "That's a home."],
+        "level_2": ["He waited for the foam.", "He waited for the home."],
+        "level_3": ["I'll get the foam from the store.", "I'll get the home address from the note."]
+      },
+      {
+        "pair": ["fork", "hawk"],
+        "ipa": ["/fɔːk/", "/hɔːk/"],
+        "level_1": ["That's a fork.", "That's a hawk."],
+        "level_2": ["Look at that fork!", "Look at that hawk!"],
+        "level_3": ["He placed the fork on the table.", "He placed the hawk on the perch."]
+      }
+    ],
+    "/f/ vs /θ/": [
+      {
+        "pair": ["four", "thaw"],
+        "ipa": ["/fɔː/", "/θɔː/"],
+        "level_1": ["That's a four.", "That's a thaw."],
+        "level_2": ["Everyone gathered around to see the four.", "Everyone gathered around to see the thaw."],
+        "level_3": ["He placed the four coins on the table.", "He placed the thawed food on the counter."]
+      },
+      {
+        "pair": ["first", "thirst"],
+        "ipa": ["/fɜːst/", "/θɜːst/"],
+        "level_1": ["That's a first.", "That's a thirst."],
+        "level_2": ["He was surprised to get a first.", "He was surprised to get a thirst."],
+        "level_3": ["She put the first trophy on the shelf.", "She put the thirst-quenching drink in the fridge."]
+      },
+      {
+        "pair": ["fort", "thought"],
+        "ipa": ["/fɔːt/", "/θɔːt/"],
+        "level_1": ["That's a fort.", "That's a thought."],
+        "level_2": ["Everyone gathered around to see the fort.", "Everyone gathered around to hear the thought."],
+        "level_3": ["He placed the fort on the map.", "He placed the thought on the whiteboard."]
+      },
+      {
+        "pair": ["oaf", "oath"],
+        "ipa": ["/oʊf/", "/oʊθ/"],
+        "level_1": ["That's an oaf.", "That's an oath."],
+        "level_2": ["Look at that oaf!", "Look at that oath!"],
+        "level_3": ["She put the oaf on the list.", "She put the oath on the paper."]
+      },
+      {
+        "pair": ["fawn", "thorn"],
+        "ipa": ["/fɔːn/", "/θɔːn/"],
+        "level_1": ["That's a fawn.", "That's a thorn."],
+        "level_2": ["Everyone gathered around to see the fawn.", "Everyone gathered around to see the thorn."],
+        "level_3": ["He placed the fawn in the meadow.", "He placed the thorn on the table."]
+      }
+    ],
+    "/s/ vs /θ/": [
+      {
+        "pair": ["sort", "thought"],
+        "ipa": ["/sɔːt/", "/θɔːt/"],
+        "level_1": ["That's a sort.", "That's a thought."],
+        "level_2": ["He was surprised to see the sort.", "He was surprised to hear the thought."],
+        "level_3": ["They left the sort on the table.", "They left the thought on the whiteboard."]
+      },
+      {
+        "pair": ["miss", "myth"],
+        "ipa": ["/mɪs/", "/mɪθ/"],
+        "level_1": ["That's a miss.", "That's a myth."],
+        "level_2": ["Everyone gathered around to see the miss.", "Everyone gathered around to hear the myth."],
+        "level_3": ["She put the miss in the file.", "She put the myth in the book."]
+      },
+      {
+        "pair": ["song", "thong"],
+        "ipa": ["/sɒŋ/", "/θɒŋ/"],
+        "level_1": ["That's a song.", "That's a thong."],
+        "level_2": ["He waited for the song.", "He waited for the thong."],
+        "level_3": ["I'll get the song from the playlist.", "I'll get the thong from the drawer."]
+      },
+      {
+        "pair": ["race", "wraith"],
+        "ipa": ["/reɪs/", "/reɪθ/"],
+        "level_1": ["That's a race.", "That's a wraith."],
+        "level_2": ["Look at that race!", "Look at that wraith!"],
+        "level_3": ["She put the race entry on the list.", "She put the wraith story on the shelf."]
+      },
+      {
+        "pair": ["sigh", "thigh"],
+        "ipa": ["/saɪ/", "/θaɪ/"],
+        "level_1": ["That's a sigh.", "That's a thigh."],
+        "level_2": ["Everyone gathered around to hear the sigh.", "Everyone gathered around to see the thigh."],
+        "level_3": ["He placed the sigh on the record.", "He placed the thigh bandage on the chair."]
+      }
+    ],
+    "/ð/ vs /z/": [
+      {
+        "pair": ["scythe", "size"],
+        "ipa": ["/saɪð/", "/saɪz/"],
+        "level_1": ["That's a scythe.", "That's a size."],
+        "level_2": ["He was surprised to see the scythe.", "He was surprised to see the size."],
+        "level_3": ["She put the scythe in the barn.", "She put the size chart on the wall."]
+      },
+      {
+        "pair": ["clothing", "closing"],
+        "ipa": ["/ˈkloʊðɪŋ/", "/ˈkloʊzɪŋ/"],
+        "level_1": ["That's a clothing.", "That's a closing."],
+        "level_2": ["He waited for the clothing.", "He waited for the closing."],
+        "level_3": ["I'll get the clothing from the wardrobe.", "I'll get the closing document from the desk."]
+      }
+    ],
+    "/ʤ/ vs /z/": [
+      {
+        "pair": ["Jew", "zoo"],
+        "ipa": ["/ʤuː/", "/zuː/"],
+        "level_1": ["That's a Jew.", "That's a zoo."],
+        "level_2": ["Everyone gathered around to see the Jew.", "Everyone gathered around to see the zoo."],
+        "level_3": ["He placed the Jew in the room.", "He placed the zoo map on the chair."]
+      },
+      {
+        "pair": ["gorge", "gauze"],
+        "ipa": ["/ɡɔːʤ/", "/ɡɔːz/"],
+        "level_1": ["That's a gorge.", "That's a gauze."],
+        "level_2": ["Look at that gorge!", "Look at that gauze!"],
+        "level_3": ["They left the gorge on the trail.", "They left the gauze on the shelf."]
+      },
+      {
+        "pair": ["jest", "zest"],
+        "ipa": ["/ʤɛst/", "/zɛst/"],
+        "level_1": ["That's a jest.", "That's a zest."],
+        "level_2": ["Everyone gathered around to hear the jest.", "Everyone gathered around to see the zest."],
+        "level_3": ["He placed the jest on the stage.", "He placed the zest in the dish."]
+      },
+      {
+        "pair": ["jig", "zig"],
+        "ipa": ["/ʤɪɡ/", "/zɪɡ/"],
+        "level_1": ["That's a jig.", "That's a zig."],
+        "level_2": ["He waited for the jig to start.", "He waited for the zig to appear."],
+        "level_3": ["I'll get the jig from the barn.", "I'll get the zig from the workshop."]
+      },
+      {
+        "pair": ["fudge", "fuzz"],
+        "ipa": ["/fʌʤ/", "/fʌz/"],
+        "level_1": ["That's a fudge.", "That's a fuzz."],
+        "level_2": ["Look at that fudge!", "Look at that fuzz!"],
+        "level_3": ["She placed the fudge on the plate.", "She placed the fuzz on the toy."]
+      },
+      {
+        "pair": ["gauge", "gaze"],
+        "ipa": ["/ɡeɪʤ/", "/ɡeɪz/"],
+        "level_1": ["That's a gauge.", "That's a gaze."],
+        "level_2": ["He was surprised to receive a gauge.", "He was surprised to see the gaze."],
+        "level_3": ["They left the gauge in the toolbox.", "They left the gaze on the photo."]
+      }
+    ],
+    "/d/ vs /ʤ/": [
+      {
+        "pair": ["dam", "jam"],
+        "ipa": ["/dæm/", "/ʤæm/"],
+        "level_1": ["That's a dam.", "That's a jam."],
+        "level_2": ["Everyone gathered around to see the dam.", "Everyone gathered around to taste the jam."],
+        "level_3": ["He placed the dam on the map.", "He placed the jam on the table."]
+      },
+      {
+        "pair": ["door", "jaw"],
+        "ipa": ["/dɔː/", "/ʤɔː/"],
+        "level_1": ["That's a door.", "That's a jaw."],
+        "level_2": ["Look at that door!", "Look at that jaw!"],
+        "level_3": ["She put the door key in the drawer.", "She put the jaw diagram on the wall."]
+      },
+      {
+        "pair": ["head", "hedge"],
+        "ipa": ["/hɛd/", "/hɛʤ/"],
+        "level_1": ["That's a head.", "That's a hedge."],
+        "level_2": ["He waited for the head to arrive.", "He waited for the hedge."],
+        "level_3": ["I'll get the head from the doctor.", "I'll get the hedge from the nursery."]
+      },
+      {
+        "pair": ["debt", "jet"],
+        "ipa": ["/dɛt/", "/ʤɛt/"],
+        "level_1": ["That's a debt.", "That's a jet."],
+        "level_2": ["He was surprised to see the debt.", "He was surprised to see the jet."],
+        "level_3": ["They left the debt on the table.", "They left the jet on the runway."]
+      },
+      {
+        "pair": ["dump", "jump"],
+        "ipa": ["/dʌmp/", "/ʤʌmp/"],
+        "level_1": ["That's a dump.", "That's a jump."],
+        "level_2": ["Everyone gathered around to see the dump.", "Everyone gathered around to see the jump."],
+        "level_3": ["He placed the dump site on the map.", "He placed the jump on the track."]
+      },
+      {
+        "pair": ["day", "jay"],
+        "ipa": ["/deɪ/", "/ʤeɪ/"],
+        "level_1": ["That's a day.", "That's a jay."],
+        "level_2": ["He waited for the day to end.", "He waited for the jay."],
+        "level_3": ["I'll get the day schedule from the office.", "I'll get the jay from the garden."]
+      },
+      {
+        "pair": ["seed", "siege"],
+        "ipa": ["/siːd/", "/siːʤ/"],
+        "level_1": ["That's a seed.", "That's a siege."],
+        "level_2": ["Look at that seed!", "Look at that siege!"],
+        "level_3": ["She put the seed in the garden.", "She put the siege on the map."]
+      },
+      {
+        "pair": ["sled", "sledge"],
+        "ipa": ["/slɛd/", "/slɛʤ/"],
+        "level_1": ["That's a sled.", "That's a sledge."],
+        "level_2": ["He was surprised to see the sled.", "He was surprised to see the sledge."],
+        "level_3": ["They left the sled by the door.", "They left the sledge in the garage."]
+      },
+      {
+        "pair": ["ford", "forge"],
+        "ipa": ["/fɔːd/", "/fɔːʤ/"],
+        "level_1": ["That's a ford.", "That's a forge."],
+        "level_2": ["Everyone gathered around to see the ford.", "Everyone gathered around to see the forge."],
+        "level_3": ["She placed the ford on the map.", "She placed the forge on the blueprint."]
+      }
+    ],
+    "/f/ vs /p/": [
+      {
+        "pair": ["beef", "beep"],
+        "ipa": ["/biːf/", "/biːp/"],
+        "level_1": ["That's a beef.", "That's a beep."],
+        "level_2": ["He waited for the beef to cook.", "He waited for the beep."],
+        "level_3": ["I'll get the beef from the fridge.", "I'll get the beep from the phone."]
+      },
+      {
+        "pair": ["coffee", "copy"],
+        "ipa": ["/ˈkɒfi/", "/ˈkɒpi/"],
+        "level_1": ["That's a coffee.", "That's a copy."],
+        "level_2": ["Look at that coffee!", "Look at that copy!"],
+        "level_3": ["She placed the coffee on the table.", "She placed the copy on the desk."]
+      },
+      {
+        "pair": ["cuff", "cup"],
+        "ipa": ["/kʌf/", "/kʌp/"],
+        "level_1": ["That's a cuff.", "That's a cup."],
+        "level_2": ["Everyone gathered around to see the cuff.", "Everyone gathered around to see the cup."],
+        "level_3": ["He placed the cuff on the shirt.", "He placed the cup on the counter."]
+      },
+      {
+        "pair": ["cough", "cop"],
+        "ipa": ["/kɒf/", "/kɒp/"],
+        "level_1": ["That's a cough.", "That's a cop."],
+        "level_2": ["He was surprised to hear the cough.", "He was surprised to see the cop."],
+        "level_3": ["They left the cough syrup on the table.", "They left the cop at the station."]
+      },
+      {
+        "pair": ["half", "harp"],
+        "ipa": ["/hɑːf/", "/hɑːp/"],
+        "level_1": ["That's a half.", "That's a harp."],
+        "level_2": ["Look at that half!", "Look at that harp!"],
+        "level_3": ["She placed the half on the plate.", "She placed the harp on the stage."]
+      },
+      {
+        "pair": ["leaf", "leap"],
+        "ipa": ["/liːf/", "/liːp/"],
+        "level_1": ["That's a leaf.", "That's a leap."],
+        "level_2": ["He waited for the leaf to fall.", "He waited for the leap."],
+        "level_3": ["I'll get the leaf from the garden.", "I'll get the leap on video."]
+      },
+      {
+        "pair": ["hoof", "hoop"],
+        "ipa": ["/huːf/", "/huːp/"],
+        "level_1": ["That's a hoof.", "That's a hoop."],
+        "level_2": ["Everyone gathered around to see the hoof.", "Everyone gathered around to see the hoop."],
+        "level_3": ["He placed the hoof on the table.", "He placed the hoop on the court."]
+      },
+      {
+        "pair": ["puff", "pup"],
+        "ipa": ["/pʌf/", "/pʌp/"],
+        "level_1": ["That's a puff.", "That's a pup."],
+        "level_2": ["He was surprised to see the puff.", "He was surprised to see the pup."],
+        "level_3": ["They left the puff on the pillow.", "They left the pup on the porch."]
+      },
+      {
+        "pair": ["fan", "pan"],
+        "ipa": ["/fæn/", "/pæn/"],
+        "level_1": ["That's a fan.", "That's a pan."],
+        "level_2": ["He waited for the fan to arrive.", "He waited for the pan to heat."],
+        "level_3": ["I'll get the fan from the shop.", "I'll get the pan from the kitchen."]
+      },
+      {
+        "pair": ["fig", "pig"],
+        "ipa": ["/fɪɡ/", "/pɪɡ/"],
+        "level_1": ["That's a fig.", "That's a pig."],
+        "level_2": ["Look at that fig!", "Look at that pig!"],
+        "level_3": ["She placed the fig on the plate.", "She placed the pig in the pen."]
+      },
+      {
+        "pair": ["finch", "pinch"],
+        "ipa": ["/fɪnʧ/", "/pɪnʧ/"],
+        "level_1": ["That's a finch.", "That's a pinch."],
+        "level_2": ["Everyone gathered around to see the finch.", "Everyone gathered around to see the pinch."],
+        "level_3": ["He placed the finch in the cage.", "He placed the pinch of salt in the dish."]
+      }
+    ],
+    "/kw/ vs /k/": [
+      {
+        "pair": ["quake", "cake"],
+        "ipa": ["/kweɪk/", "/keɪk/"],
+        "level_1": ["That's a quake.", "That's a cake."],
+        "level_2": ["Everyone gathered around to feel the quake.", "Everyone gathered around to eat the cake."],
+        "level_3": ["He placed the quake report on the desk.", "He placed the cake on the table."]
+      },
+      {
+        "pair": ["squirt", "skirt"],
+        "ipa": ["/skwɜːt/", "/skɜːt/"],
+        "level_1": ["That's a squirt.", "That's a skirt."],
+        "level_2": ["He was surprised to see the squirt.", "He was surprised to see the skirt."],
+        "level_3": ["They left the squirt gun on the ground.", "They left the skirt on the hanger."]
+      },
+      {
+        "pair": ["quart", "court"],
+        "ipa": ["/kwɔːt/", "/kɔːt/"],
+        "level_1": ["That's a quart.", "That's a court."],
+        "level_2": ["He waited for the quart to arrive.", "He waited for the court to open."],
+        "level_3": ["I'll get the quart from the fridge.", "I'll get the court papers from the desk."]
+      },
+      {
+        "pair": ["quill", "kill"],
+        "ipa": ["/kwɪl/", "/kɪl/"],
+        "level_1": ["That's a quill.", "That's a kill."],
+        "level_2": ["Everyone gathered around to see the quill.", "Everyone gathered around to see the kill."],
+        "level_3": ["She put the quill in the drawer.", "She put the kill on the chart."]
+      },
+      {
+        "pair": ["quid", "kid"],
+        "ipa": ["/kwɪd/", "/kɪd/"],
+        "level_1": ["That's a quid.", "That's a kid."],
+        "level_2": ["He was surprised to receive a quid.", "He was surprised to see the kid."],
+        "level_3": ["They left the quid on the counter.", "They left the kid at the school."]
+      },
+      {
+        "pair": ["quilt", "kilt"],
+        "ipa": ["/kwɪlt/", "/kɪlt/"],
+        "level_1": ["That's a quilt.", "That's a kilt."],
+        "level_2": ["Everyone gathered around to see the quilt.", "Everyone gathered around to see the kilt."],
+        "level_3": ["He placed the quilt on the bed.", "He placed the kilt on the chair."]
+      }
+    ],
+    "/tʃ/ vs /dʒ/": [
+      {
+        "pair": ["cherry", "jerry"],
+        "ipa": ["/ˈʧɛri/", "/ˈʤɛri/"],
+        "level_1": ["That's a cherry.", "That's a Jerry."],
+        "level_2": ["Everyone gathered around to see the cherry.", "Everyone gathered around to see Jerry."],
+        "level_3": ["She placed the cherry in the bowl.", "She placed Jerry's photo on the shelf."]
+      },
+      {
+        "pair": ["chew", "jew"],
+        "ipa": ["/ʧuː/", "/ʤuː/"],
+        "level_1": ["That's a chew.", "That's a Jew."],
+        "level_2": ["He waited for the chew to soften.", "He waited for the Jew to arrive."],
+        "level_3": ["I'll get the chew from the snack jar.", "I'll get the Jew from the synagogue."]
+      },
+      {
+        "pair": ["chump", "jump"],
+        "ipa": ["/ʧʌmp/", "/ʤʌmp/"],
+        "level_1": ["That's a chump.", "That's a jump."],
+        "level_2": ["Look at that chump!", "Look at that jump!"],
+        "level_3": ["He placed the chump on the team.", "He placed the jump on the track."]
+      },
+      {
+        "pair": ["chest", "jest"],
+        "ipa": ["/ʧɛst/", "/ʤɛst/"],
+        "level_1": ["That's a chest.", "That's a jest."],
+        "level_2": ["He waited for the chest to open.", "He waited for the jest to end."],
+        "level_3": ["I'll get the chest from the attic.", "I'll get the jest from the play."]
+      },
+      {
+        "pair": ["chin", "gin"],
+        "ipa": ["/ʧɪn/", "/ʤɪn/"],
+        "level_1": ["That's a chin.", "That's a gin."],
+        "level_2": ["Everyone gathered around to see the chin.", "Everyone gathered around to taste the gin."],
+        "level_3": ["She placed the chin cream on the table.", "She placed the gin on the bar."]
+      },
+      {
+        "pair": ["choke", "joke"],
+        "ipa": ["/ʧoʊk/", "/ʤoʊk/"],
+        "level_1": ["That's a choke.", "That's a joke."],
+        "level_2": ["Look at that choke!", "Look at that joke!"],
+        "level_3": ["He placed the chokehold in the instruction.", "He placed the joke in the script."]
+      },
+      {
+        "pair": ["chore", "jaw"],
+        "ipa": ["/ʧɔːr/", "/ʤɔːr/"],
+        "level_1": ["That's a chore.", "That's a jaw."],
+        "level_2": ["He waited for the chore to be done.", "He waited for the jaw to heal."],
+        "level_3": ["I'll get the chore list from the fridge.", "I'll get the jaw X-ray from the doctor."]
+      },
+      {
+        "pair": ["chug", "jug"],
+        "ipa": ["/ʧʌɡ/", "/ʤʌɡ/"],
+        "level_1": ["That's a chug.", "That's a jug."],
+        "level_2": ["Everyone gathered around to hear the chug.", "Everyone gathered around to see the jug."],
+        "level_3": ["He placed the chugging trophy on the shelf.", "He placed the jug on the table."]
+      }
+    ],
+    "/tʃ/ vs /ʃ/": [
+      {
+        "pair": ["chair", "share"],
+        "ipa": ["/ʧɛər/", "/ʃɛər/"],
+        "level_1": ["That's a chair.", "That's a share."],
+        "level_2": ["He waited for the chair to arrive.", "He waited for the share to drop."],
+        "level_3": ["I'll get the chair from the car.", "I'll get the share report from the office."]
+      },
+      {
+        "pair": ["choose", "shoes"],
+        "ipa": ["/ʧuːz/", "/ʃuːz/"],
+        "level_1": ["That's a choose.", "That's a shoes."],
+        "level_2": ["Look at that choose!", "Look at those shoes!"],
+        "level_3": ["She placed the choose on the form.", "She placed the shoes on the shelf."]
+      },
+      {
+        "pair": ["chop", "shop"],
+        "ipa": ["/ʧɒp/", "/ʃɒp/"],
+        "level_1": ["That's a chop.", "That's a shop."],
+        "level_2": ["Everyone gathered around to see the chop.", "Everyone gathered around to visit the shop."],
+        "level_3": ["He placed the chop on the grill.", "He placed the shop sign outside."]
+      },
+      {
+        "pair": ["catch", "cash"],
+        "ipa": ["/kæʧ/", "/kæʃ/"],
+        "level_1": ["That's a catch.", "That's a cash."],
+        "level_2": ["He was surprised to make a catch.", "He was surprised to receive cash."],
+        "level_3": ["They left the catch in the locker.", "They left the cash on the table."]
+      },
+      {
+        "pair": ["chew", "shoe"],
+        "ipa": ["/ʧuː/", "/ʃuː/"],
+        "level_1": ["That's a chew.", "That's a shoe."],
+        "level_2": ["He waited for the chew to finish.", "He waited for the shoe to arrive."],
+        "level_3": ["I'll get the chew toy from the box.", "I'll get the shoe from the closet."]
+      },
+      {
+        "pair": ["cherry", "sherry"],
+        "ipa": ["/ˈʧɛri/", "/ˈʃɛri/"],
+        "level_1": ["That's a cherry.", "That's a sherry."],
+        "level_2": ["Everyone gathered around to see the cherry.", "Everyone gathered around to taste the sherry."],
+        "level_3": ["She placed the cherry on the cake.", "She placed the sherry on the bar."]
+      },
+      {
+        "pair": ["chip", "ship"],
+        "ipa": ["/ʧɪp/", "/ʃɪp/"],
+        "level_1": ["That's a chip.", "That's a ship."],
+        "level_2": ["He waited for the chip to arrive.", "He waited for the ship to dock."],
+        "level_3": ["I'll get the chip from the pantry.", "I'll get the ship from the harbor."]
+      },
+      {
+        "pair": ["witch", "wish"],
+        "ipa": ["/wɪʧ/", "/wɪʃ/"],
+        "level_1": ["That's a witch.", "That's a wish."],
+        "level_2": ["Look at that witch!", "Look at that wish!"],
+        "level_3": ["He placed the witch doll on the shelf.", "He placed the wish list on the table."]
+      }
+    ],
+    "/d/ vs /ð/": [
+      {
+        "pair": ["side", "scythe"],
+        "ipa": ["/saɪd/", "/saɪð/"],
+        "level_1": ["That's a side.", "That's a scythe."],
+        "level_2": ["He waited for the side to finish.", "He waited for the scythe."],
+        "level_3": ["I'll get the side dish from the kitchen.", "I'll get the scythe from the shed."]
+      },
+      {
+        "pair": ["udder", "other"],
+        "ipa": ["/ˈʌdə/", "/ˈʌðə/"],
+        "level_1": ["That's an udder.", "That's an other."],
+        "level_2": ["Everyone gathered around to see the udder.", "Everyone gathered around to see the other."],
+        "level_3": ["She placed the udder photo on the board.", "She placed the other on the list."]
+      }
+    ],
+    "/t/ vs /θ/": [
+      {
+        "pair": ["tie", "thigh"],
+        "ipa": ["/taɪ/", "/θaɪ/"],
+        "level_1": ["That's a tie.", "That's a thigh."],
+        "level_2": ["He waited for the tie to arrive.", "He waited for the thigh to heal."],
+        "level_3": ["I'll get the tie from the drawer.", "I'll get the thigh cream from the cabinet."]
+      },
+      {
+        "pair": ["tree", "three"],
+        "ipa": ["/triː/", "/θriː/"],
+        "level_1": ["That's a tree.", "That's a three."],
+        "level_2": ["Everyone gathered around to see the tree.", "Everyone gathered around to see the three."],
+        "level_3": ["He placed the tree in the garden.", "He placed the three on the scoreboard."]
+      },
+      {
+        "pair": ["part", "path"],
+        "ipa": ["/pɑːt/", "/pɑːθ/"],
+        "level_1": ["That's a part.", "That's a path."],
+        "level_2": ["He was surprised to receive a part.", "He was surprised to see the path."],
+        "level_3": ["They left the part on the table.", "They left the path on the map."]
+      },
+      {
+        "pair": ["clot", "cloth"],
+        "ipa": ["/klɒt/", "/klɒθ/"],
+        "level_1": ["That's a clot.", "That's a cloth."],
+        "level_2": ["He waited for the clot to dissolve.", "He waited for the cloth to dry."],
+        "level_3": ["She placed the clot sample on the tray.", "She placed the cloth on the table."]
+      },
+      {
+        "pair": ["Thai", "thigh"],
+        "ipa": ["/taɪ/", "/θaɪ/"],
+        "level_1": ["That's a Thai.", "That's a thigh."],
+        "level_2": ["Everyone gathered around to see the Thai dancer.", "Everyone gathered around to see the thigh."],
+        "level_3": ["He placed the Thai flag on the wall.", "He placed the thigh brace on the counter."]
+      },
+      {
+        "pair": ["oat", "oath"],
+        "ipa": ["/oʊt/", "/oʊθ/"],
+        "level_1": ["That's an oat.", "That's an oath."],
+        "level_2": ["He was surprised to see an oat.", "He was surprised to hear the oath."],
+        "level_3": ["They left the oat in the bowl.", "They left the oath on the paper."]
+      },
+      {
+        "pair": ["tug", "thug"],
+        "ipa": ["/tʌɡ/", "/θʌɡ/"],
+        "level_1": ["That's a tug.", "That's a thug."],
+        "level_2": ["He waited for the tug to arrive.", "He waited for the thug to leave."],
+        "level_3": ["I'll get the tug from the dock.", "I'll get the thug from the alley."]
+      }
+    ],
+    "/v/ vs /w/": [
+      {
+        "pair": ["V", "we"],
+        "ipa": ["/viː/", "/wiː/"],
+        "level_1": ["That's a V.", "That's a we."],
+        "level_2": ["Everyone gathered around to see the V.", "Everyone gathered around to see the we."],
+        "level_3": ["He placed the V on the chart.", "He placed the we in the document."]
+      },
+      {
+        "pair": ["veil", "whale"],
+        "ipa": ["/veɪl/", "/weɪl/"],
+        "level_1": ["That's a veil.", "That's a whale."],
+        "level_2": ["He was surprised to see the veil.", "He was surprised to see the whale."],
+        "level_3": ["They left the veil on the table.", "They left the whale on the shore."]
+      },
+      {
+        "pair": ["viper", "wiper"],
+        "ipa": ["/ˈvaɪpər/", "/ˈwaɪpər/"],
+        "level_1": ["That's a viper.", "That's a wiper."],
+        "level_2": ["Look at that viper!", "Look at that wiper!"],
+        "level_3": ["He placed the viper in the cage.", "He placed the wiper on the windshield."]
+      },
+      {
+        "pair": ["vine", "whine"],
+        "ipa": ["/vaɪn/", "/waɪn/"],
+        "level_1": ["That's a vine.", "That's a whine."],
+        "level_2": ["Everyone gathered around to see the vine.", "Everyone gathered around to hear the whine."],
+        "level_3": ["She placed the vine in the garden.", "She placed the whine in the conversation."]
+      },
+      {
+        "pair": ["vow", "wow"],
+        "ipa": ["/vaʊ/", "/waʊ/"],
+        "level_1": ["That's a vow.", "That's a wow."],
+        "level_2": ["He was surprised to hear the vow.", "He was surprised to hear the wow."],
+        "level_3": ["They left the vow on the paper.", "They left the wow in the speech."]
+      }
+
+            ]
+        }
+    }
+}
