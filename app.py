@@ -4,8 +4,9 @@ import speech_recognition as sr
 import pandas as pd
 import matplotlib.pyplot as plt
 import io
-from gtts import gTTS
 import string
+from gtts import gTTS
+from audio_recorder_streamlit import audio_recorder
 
 # Import the compare_phonemes function from phoneme_utils
 from phoneme_utils import compare_phonemes
@@ -22,9 +23,10 @@ if 'current_word_index_testing' not in st.session_state:
     st.session_state.current_word_index_testing = 0
     st.session_state.results_testing = []
     st.session_state.has_answered_testing = False
-    st.session_state.recording_started_testing = False
     st.session_state.error_occurred_testing = False
-    st.session_state.current_recording_word_testing = ''
+    st.session_state.recognized_text_testing = ''
+    st.session_state.correct_testing = False
+    st.session_state.recorded_audio_testing = None  # Store recorded audio
 
 # For Phoneme Practice
 if 'phoneme_data_practice' not in st.session_state:
@@ -48,17 +50,14 @@ if 'current_sentence_index_practice' not in st.session_state:
 if 'has_answered_practice' not in st.session_state:
     st.session_state.has_answered_practice = False
 
-if 'recording_started_practice' not in st.session_state:
-    st.session_state.recording_started_practice = False
-
 if 'error_occurred_practice' not in st.session_state:
     st.session_state.error_occurred_practice = False
 
-if 'current_recording_word_practice' not in st.session_state:
-    st.session_state.current_recording_word_practice = ''
-
 if 'results_practice' not in st.session_state:
     st.session_state.results_practice = []
+    st.session_state.recognized_text_practice = ''
+    st.session_state.correct_practice = False
+    st.session_state.recorded_audio_practice = None  # Store recorded audio
 
 if 'last_selected_contrast' not in st.session_state:
     st.session_state.last_selected_contrast = None
@@ -95,72 +94,29 @@ def generate_audio(text):
         st.error(f"Error generating audio: {e}")
         return None
 
-def recognize_speech(expected_word):
+def recognize_speech_from_audio(audio_bytes, expected_word):
     r = sr.Recognizer()
-    with sr.Microphone() as source:
-        st.info("Recording in progress, please speak the sentence...")
-        audio = r.listen(source)
-        try:
-            result = r.recognize_google(audio)
-            # Normalize both the result and the expected word
-            normalized_result = result.lower().strip()
-            normalized_expected = expected_word.lower().strip()
+    with sr.AudioFile(io.BytesIO(audio_bytes)) as source:
+        audio = r.record(source)
+    try:
+        result = r.recognize_google(audio)
+        # Normalize both the result and the expected word
+        normalized_result = result.lower().strip()
+        normalized_expected = expected_word.lower().strip()
 
-            # Remove punctuation for accurate comparison
-            normalized_result = normalized_result.translate(str.maketrans('', '', string.punctuation))
-            normalized_expected = normalized_expected.translate(str.maketrans('', '', string.punctuation))
+        # Remove punctuation for accurate comparison
+        normalized_result = normalized_result.translate(str.maketrans('', '', string.punctuation))
+        normalized_expected = normalized_expected.translate(str.maketrans('', '', string.punctuation))
 
-            # Check if the recognized text contains the target word
-            correct = normalized_expected in normalized_result.split()
-            return result, correct
-        except sr.UnknownValueError:
-            st.error("Google Speech Recognition could not understand the audio.")
-            return "", False
-        except sr.RequestError as e:
-            st.error(f"Could not request results from Google Speech Recognition service; {e}")
-            return "", False
-
-# ==========================
-# Button Callback Functions
-# ==========================
-
-# For Phoneme Testing
-def start_recording_testing(word, index):
-    st.session_state.recording_started_testing = True
-    st.session_state.current_recording_word_testing = word
-    st.session_state.current_recording_index_testing = index
-
-def continue_to_next_testing():
-    st.session_state.current_word_index_testing += 1
-    st.session_state.has_answered_testing = False
-    st.session_state.recording_started_testing = False
-    st.session_state.error_occurred_testing = False
-    st.session_state.current_recording_word_testing = ''
-
-def retry_current_testing():
-    st.session_state.has_answered_testing = False
-    st.session_state.error_occurred_testing = False
-    st.session_state.recording_started_testing = False
-    st.session_state.current_recording_word_testing = ''
-
-# For Phoneme Practice
-def start_recording_practice(sentence_data, index):
-    st.session_state.recording_started_practice = True
-    st.session_state.current_recording_word_practice = sentence_data['target_word']
-    st.session_state.current_sentence_index_practice = index
-
-def continue_to_next_practice():
-    st.session_state.current_sentence_index_practice += 1
-    st.session_state.has_answered_practice = False
-    st.session_state.recording_started_practice = False
-    st.session_state.error_occurred_practice = False
-    st.session_state.current_recording_word_practice = ''
-
-def retry_current_practice():
-    st.session_state.has_answered_practice = False
-    st.session_state.error_occurred_practice = False
-    st.session_state.recording_started_practice = False
-    st.session_state.current_recording_word_practice = ''
+        # Check if the recognized text contains the target word
+        correct = normalized_expected in normalized_result.split()
+        return result, correct
+    except sr.UnknownValueError:
+        st.error("Google Speech Recognition could not understand the audio.")
+        return "", False
+    except sr.RequestError as e:
+        st.error(f"Could not request results from Google Speech Recognition service; {e}")
+        return "", False
 
 # ==========================
 # Session End Functions
@@ -193,8 +149,10 @@ def end_session_testing():
         st.session_state.current_word_index_testing = 0
         st.session_state.results_testing = []
         st.session_state.has_answered_testing = False
-        st.session_state.recording_started_testing = False
-        st.session_state.current_recording_word_testing = ''
+        st.session_state.error_occurred_testing = False
+        st.session_state.recognized_text_testing = ''
+        st.session_state.correct_testing = False
+        st.session_state.recorded_audio_testing = None
 
 def end_session_practice():
     st.write("### Practice Complete!")
@@ -223,13 +181,35 @@ def end_session_practice():
         st.session_state.current_sentence_index_practice = 0
         st.session_state.results_practice = []
         st.session_state.has_answered_practice = False
-        st.session_state.recording_started_practice = False
-        st.session_state.current_recording_word_practice = ''
+        st.session_state.error_occurred_practice = False
+        st.session_state.recognized_text_practice = ''
+        st.session_state.correct_practice = False
+        st.session_state.recorded_audio_practice = None
         st.session_state.selected_practice_contrast = None
         st.session_state.selected_practice_minimal_pairs = None
         st.session_state.selected_practice_level = None
         st.session_state.practice_sentences = []
         st.session_state.last_selected_contrast = None
+
+# ==========================
+# Button Callback Functions
+# ==========================
+
+def continue_to_next_testing():
+    st.session_state.current_word_index_testing += 1
+    st.session_state.has_answered_testing = False
+    st.session_state.error_occurred_testing = False
+    st.session_state.recognized_text_testing = ''
+    st.session_state.correct_testing = False
+    st.session_state.recorded_audio_testing = None
+
+def continue_to_next_practice():
+    st.session_state.current_sentence_index_practice += 1
+    st.session_state.has_answered_practice = False
+    st.session_state.error_occurred_practice = False
+    st.session_state.recognized_text_practice = ''
+    st.session_state.correct_practice = False
+    st.session_state.recorded_audio_practice = None
 
 # ==========================
 # Phoneme Testing Logic
@@ -264,74 +244,72 @@ def phoneme_testing(phoneme_type):
                 st.audio(audio_bytes, format='audio/mp3')
 
         if not st.session_state.has_answered_testing:
-            # Start Recording button: disabled if recording_started is True
-            st.button(
-                "Start Recording",
-                key=f"start_testing_{st.session_state.current_word_index_testing}",
-                on_click=start_recording_testing,
-                args=(word, st.session_state.current_word_index_testing),
-                disabled=st.session_state.recording_started_testing
+            st.write("Please click on the microphone to start recording.")
+
+            # Use the correct parameter to change the microphone icon color
+            audio_bytes = audio_recorder(
+                recording_color="#006400",  # Dark green when recording
+                neutral_color="#404040"     # Dark gray when not recording
             )
 
-        # If recording has started, perform recognition
-        if st.session_state.recording_started_testing:
-            # Perform speech recognition
-            recognized_text, correct = recognize_speech(st.session_state.current_recording_word_testing)
-            if recognized_text:
-                st.write(f"You said: **{recognized_text}**")
-                st.session_state.has_answered_testing = True
-                st.session_state.recording_started_testing = False  # Re-enable for next word
+            if audio_bytes:
+                # Store the recorded audio in session state
+                st.session_state.recorded_audio_testing = audio_bytes
 
-                # Clean the recognized text to extract the recognized word
-                recognized_words = recognized_text.strip().split()
-                if recognized_words:
-                    recognized_word = recognized_words[-1].lower()
-                    # Remove punctuation from the recognized word
-                    recognized_word = recognized_word.strip(string.punctuation)
+                # Perform speech recognition
+                recognized_text, correct = recognize_speech_from_audio(audio_bytes, word)
+                if recognized_text:
+                    st.session_state.recognized_text_testing = recognized_text
+                    st.session_state.correct_testing = correct
+                    st.session_state.has_answered_testing = True
+
+                    st.rerun()
                 else:
-                    recognized_word = ""
+                    st.error("Could not understand the audio. Please try again.")
+                    # Allow re-recording
+        else:
+            # Display the user's recording with a label
+            st.write("Your Recording:")
+            if st.session_state.recorded_audio_testing:
+                st.audio(st.session_state.recorded_audio_testing, format='audio/wav')
 
-                # Compare phonemes and provide feedback
-                feedback, _ = compare_phonemes(
-                    word,
-                    recognized_word,
-                    current_word_data.get('phonemic_contrast', [])
-                )
-                st.write(feedback)
+            # Display the ideal pronunciation
+            st.write("Ideal Pronunciation:")
+            ideal_audio = generate_audio(sentence)
+            if ideal_audio:
+                st.audio(ideal_audio, format='audio/mp3')
 
-                # Store result with the recognized word if incorrect
-                st.session_state.results_testing.append({
-                    'Word': word,
-                    'Your Pronunciation': recognized_word if not correct else 'N/A',
-                    'Correct': correct
-                })
+            # Display the recognized text and feedback
+            st.write(f"You said: **{st.session_state.recognized_text_testing}**")
 
-                st.button(
-                    "Continue",
-                    key=f"continue_testing_{st.session_state.current_word_index_testing}",
-                    on_click=continue_to_next_testing
-                )
+            # Clean the recognized text to extract the recognized word
+            recognized_words = st.session_state.recognized_text_testing.strip().split()
+            if recognized_words:
+                recognized_word = recognized_words[-1].lower()
+                recognized_word = recognized_word.strip(string.punctuation)
             else:
-                st.error("Could not understand the audio. Please try again.")
-                st.session_state.has_answered_testing = True
-                st.session_state.error_occurred_testing = True
-                st.session_state.recording_started_testing = False  # Re-enable button for retry
+                recognized_word = ""
 
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.button(
-                        "Retry",
-                        key=f"retry_testing_{st.session_state.current_word_index_testing}",
-                        on_click=retry_current_testing
-                    )
-                with col2:
-                    st.button(
-                        "Continue",
-                        key=f"continue_testing_{st.session_state.current_word_index_testing}",
-                        on_click=continue_to_next_testing
-                    )
+            # Compare phonemes and provide feedback
+            feedback, _ = compare_phonemes(
+                word,
+                recognized_word,
+                current_word_data.get('phonemic_contrast', [])
+            )
+            st.write(feedback)
 
-        progress = (st.session_state.current_word_index_testing + 1) / st.session_state.total_steps_testing if st.session_state.total_steps_testing > 0 else 0
+            # Store result
+            st.session_state.results_testing.append({
+                'Word': word,
+                'Your Pronunciation': recognized_word if not st.session_state.correct_testing else 'N/A',
+                'Correct': st.session_state.correct_testing
+            })
+
+            if st.button("Continue"):
+                continue_to_next_testing()
+                st.rerun()
+
+        progress = (st.session_state.current_word_index_testing + 1) / st.session_state.total_steps_testing
         st.progress(progress)
         st.write(f"**Progress:** {st.session_state.current_word_index_testing + 1}/{st.session_state.total_steps_testing}")
 
@@ -375,9 +353,11 @@ def phoneme_practice():
             st.session_state.practice_sentences = []
             st.session_state.current_sentence_index_practice = 0
             st.session_state.has_answered_practice = False
-            st.session_state.recording_started_practice = False
             st.session_state.error_occurred_practice = False
             st.session_state.results_practice = []
+            st.session_state.recognized_text_practice = ''
+            st.session_state.correct_practice = False
+            st.session_state.recorded_audio_practice = None
         else:
             st.session_state.selected_practice_contrast = None
             st.session_state.selected_practice_minimal_pairs = None
@@ -414,9 +394,11 @@ def phoneme_practice():
             # Reset practice state variables
             st.session_state.current_sentence_index_practice = 0
             st.session_state.has_answered_practice = False
-            st.session_state.recording_started_practice = False
             st.session_state.error_occurred_practice = False
             st.session_state.results_practice = []
+            st.session_state.recognized_text_practice = ''
+            st.session_state.correct_practice = False
+            st.session_state.recorded_audio_practice = None
 
     # ==========================
     # Step 3: Practice Sentences
@@ -442,62 +424,61 @@ def phoneme_practice():
                 st.audio(audio_bytes, format='audio/mp3')
 
         if not st.session_state.has_answered_practice:
-            # Start Recording button
-            st.button(
-                "Start Recording",
-                key=f"start_practice_{current_index}",
-                on_click=start_recording_practice,
-                args=(current_sentence_data, current_index),
-                disabled=st.session_state.recording_started_practice
+            st.write("Please click on the microphone to start recording.")
+
+            # Use the correct parameter to change the microphone icon color
+            audio_bytes = audio_recorder(
+                recording_color="#006400",  # Dark green when recording
+                neutral_color="#404040"     # Dark gray when not recording
             )
 
-        # If recording has started, perform recognition
-        if st.session_state.recording_started_practice:
-            # Perform speech recognition
-            recognized_text, correct = recognize_speech(current_sentence_data['target_word'])
-            if recognized_text:
-                st.write(f"You said: **{recognized_text}**")
-                st.session_state.has_answered_practice = True
-                st.session_state.recording_started_practice = False
+            if audio_bytes:
+                # Store the recorded audio in session state
+                st.session_state.recorded_audio_practice = audio_bytes
 
-                # Provide feedback
-                if correct:
-                    feedback = f"**Good job!** You pronounced '{current_sentence_data['target_word']}' correctly."
+                # Perform speech recognition
+                recognized_text, correct = recognize_speech_from_audio(audio_bytes, target_word)
+                if recognized_text:
+                    st.session_state.recognized_text_practice = recognized_text
+                    st.session_state.correct_practice = correct
+                    st.session_state.has_answered_practice = True
+
+                    st.rerun()
                 else:
-                    feedback = f"**You said '{recognized_text}', but the correct word was '{current_sentence_data['target_word']}'.**"
-                st.write(feedback)
+                    st.error("Could not understand the audio. Please try again.")
+                    # Allow re-recording
+        else:
+            # Display the user's recording with a label
+            st.write("Your Recording:")
+            if st.session_state.recorded_audio_practice:
+                st.audio(st.session_state.recorded_audio_practice, format='audio/wav')
 
-                # Store result
-                st.session_state.results_practice.append({
-                    'Sentence': current_sentence,
-                    'Your Pronunciation': recognized_text,
-                    'Correct': correct
-                })
+            # Display the ideal pronunciation
+            st.write("Ideal Pronunciation:")
+            ideal_audio = generate_audio(current_sentence)
+            if ideal_audio:
+                st.audio(ideal_audio, format='audio/mp3')
 
-                st.button(
-                    "Continue",
-                    key=f"continue_practice_{current_index}",
-                    on_click=continue_to_next_practice
-                )
+            # Display the recognized text and feedback
+            st.write(f"You said: **{st.session_state.recognized_text_practice}**")
+
+            # Provide feedback
+            if st.session_state.correct_practice:
+                feedback = f"**Good job!** You pronounced '{target_word}' correctly."
             else:
-                st.error("Could not understand the audio. Please try again.")
-                st.session_state.has_answered_practice = True
-                st.session_state.error_occurred_practice = True
-                st.session_state.recording_started_practice = False
+                feedback = f"**You said '{st.session_state.recognized_text_practice}', but the correct word was '{target_word}'.**"
+            st.write(feedback)
 
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.button(
-                        "Retry",
-                        key=f"retry_practice_{current_index}",
-                        on_click=retry_current_practice
-                    )
-                with col2:
-                    st.button(
-                        "Continue",
-                        key=f"continue_practice_{current_index}",
-                        on_click=continue_to_next_practice
-                    )
+            # Store result
+            st.session_state.results_practice.append({
+                'Sentence': current_sentence,
+                'Your Pronunciation': st.session_state.recognized_text_practice,
+                'Correct': st.session_state.correct_practice
+            })
+
+            if st.button("Continue"):
+                continue_to_next_practice()
+                st.rerun()
 
         progress = (st.session_state.current_sentence_index_practice + 1) / len(st.session_state.practice_sentences)
         st.progress(progress)
@@ -566,9 +547,11 @@ def main():
             st.session_state.practice_sentences = []
             st.session_state.current_sentence_index_practice = 0
             st.session_state.has_answered_practice = False
-            st.session_state.recording_started_practice = False
             st.session_state.error_occurred_practice = False
             st.session_state.results_practice = []
+            st.session_state.recognized_text_practice = ''
+            st.session_state.correct_practice = False
+            st.session_state.recorded_audio_practice = None
 
         phoneme_practice()
 
